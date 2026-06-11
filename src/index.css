@@ -1,0 +1,28 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --dark:    #0A1628;
+  --dark2:   #0F2040;
+  --gold:    #C9922A;
+  --gold-l:  #E8B84B;
+  --bg:      #FFFFFF;
+  --bg2:     #F4F6F9;
+  --text-h:  #0A1628;
+  --text:    #4A5568;
+  --border:  rgba(0, 0, 0, 0.08);
+  --red:     #C9922A;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
