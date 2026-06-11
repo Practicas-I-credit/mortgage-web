@@ -69,6 +69,88 @@ export default function Home() {
         </div>
       </div>
 
+      {/* PAIN POINTS */}
+      <section id="pain-points">
+        <p className="section-tag">Common challenges</p>
+        <h2>We know the challenges you face</h2>
+        <p className="section-sub">Buying property in Spain as a foreigner can be complex. We simplify every step.</p>
+        <div id="pain-grid">
+          <div className="pain-card">
+            <div className="pain-card-top">
+              <div className="pain-card-icon">🗺️</div>
+              <span className="pain-badge">Distance</span>
+            </div>
+            <h3>You live far away</h3>
+            <p>Managing a mortgage process from the US is overwhelming. We handle everything remotely so you don't have to travel until signing day.</p>
+            <div className="pain-card-footer">✓ We manage it remotely</div>
+          </div>
+          <div className="pain-card">
+            <div className="pain-card-top">
+              <div className="pain-card-icon">📋</div>
+              <span className="pain-badge">Paperwork</span>
+            </div>
+            <h3>Spanish bureaucracy</h3>
+            <p>NIE, notary, taxes, bank requirements — the paperwork is endless. Our experts guide you through every step in English.</p>
+            <div className="pain-card-footer">✓ Full guidance in English</div>
+          </div>
+          <div className="pain-card">
+            <div className="pain-card-top">
+              <div className="pain-card-icon">🏦</div>
+              <span className="pain-badge">Bank access</span>
+            </div>
+            <h3>Banks reject foreigners</h3>
+            <p>Spanish banks are cautious with non-residents. We have exclusive agreements with 45+ banks to get you approved.</p>
+            <div className="pain-card-footer">✓ 45+ partner banks</div>
+          </div>
+          <div className="pain-card">
+            <div className="pain-card-top">
+              <div className="pain-card-icon">💸</div>
+              <span className="pain-badge">Costs</span>
+            </div>
+            <h3>Hidden costs</h3>
+            <p>Taxes, fees, insurance — costs add up fast. We give you a full transparent breakdown before you commit to anything.</p>
+            <div className="pain-card-footer">✓ 100% transparent pricing</div>
+          </div>
+        </div>
+      </section>
+      
+      {/* HOW IT WORKS */}
+      <section id="como-funciona">
+        <p className="section-tag">The process</p>
+        <h2>How we get you your mortgage</h2>
+        <p className="section-sub">Simple, transparent and fully managed in English from start to finish.</p>
+        <div id="steps">
+          <div className="step">
+            <div className="step-num">1</div>
+            <div className="step-body">
+              <h3>Free consultation</h3>
+              <p>Tell us your situation — where you live, what property you want, your budget. We assess your eligibility at no cost.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">2</div>
+            <div className="step-body">
+              <h3>We find the best offer</h3>
+              <p>We negotiate with 45+ Spanish banks on your behalf and bring you the best conditions available for your profile.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">3</div>
+            <div className="step-body">
+              <h3>We handle the paperwork</h3>
+              <p>NIE, documentation, bank forms — we manage everything. You just review and approve at each stage.</p>
+            </div>
+          </div>
+          <div className="step">
+            <div className="step-num">4</div>
+            <div className="step-body">
+              <h3>Sign and get your keys</h3>
+              <p>We accompany you to the notary — in person or remotely via Power of Attorney. Your Spanish home is ready.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   )
 }

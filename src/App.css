@@ -368,6 +368,223 @@ nav {
 
 /*-----------------------------------*/
 
+/* ── PAIN POINTS ── */
+#pain-points {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#pain-points h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+  color: var(--text-h);
+}
+
+.section-sub {
+  text-align: center;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-tag {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.4rem;
+}
+
+#pain-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.pain-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.4rem;
+  transition: border-color 0.2s;
+}
+
+.pain-card:hover {
+  border-color: var(--gold);
+}
+
+.pain-card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.pain-card-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-l);
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.pain-badge {
+  background: rgba(201, 146, 42, 0.1);
+  color: var(--gold);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.pain-card h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 6px;
+}
+
+.pain-card p {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.pain-card-footer {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  #pain-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*-----------------------------------*/
+
+/* ── HOW IT WORKS ── */
+#como-funciona {
+  background: var(--bg2);
+  padding: 4rem 2rem;
+}
+
+#como-funciona h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.4rem;
+  color: var(--text-h);
+}
+
+#steps {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 12px;
+  position: relative;
+}
+
+.step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -50%;
+  width: 100%;
+  height: 1px;
+  background: rgba(201, 146, 42, 0.3);
+  z-index: 0;
+}
+
+.step-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--dark);
+  border: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gold-l);
+  position: relative;
+  z-index: 1;
+  margin-bottom: 14px;
+  flex-shrink: 0;
+}
+
+.step-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-body h3 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 6px;
+}
+
+.step-body p {
+  font-size: 0.82rem;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+@media (max-width: 768px) {
+  #steps {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .step:not(:last-child)::after {
+    display: none;
+  }
+
+  .step {
+    flex-direction: row;
+    text-align: left;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .step-body {
+    align-items: flex-start;
+  }
+}
+
+/*-----------------------------------*/
+
 /* ── FOOTER ── */
 footer {
   background: #060a12;
