@@ -13,7 +13,6 @@ export default function NavBar() {
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/about">About us</Link>
-        <Link to="/contact">Calculator</Link>
         <Link to="/contact" id="nav-cta">Free consultation</Link>
       </div>
     </nav>
