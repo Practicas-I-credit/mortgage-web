@@ -12,6 +12,17 @@ header {
   display: block;
 }
 
+#header-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.header-accent {
+  color: var(--gold-l);
+}
+
 /*-----------------------------------*/
 
 /* ── NAVBAR ── */
