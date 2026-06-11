@@ -18,6 +18,9 @@
 - Desarrollo de Trust Band con datos de i-credit.
 - Desarrollo de sección Stats.
 - Primer deploy y push al repositorio.
+- Desarrollo de sección Pain Points con nuevo estilo de cards.
+- Desarrollo de sección How it works con diseño de timeline horizontal.
+- Actualización del README con información completa del proyecto.
 
 ### Resultado
 
@@ -25,17 +28,19 @@
 - Estructura base completa con navegación operativa.
 - Hero con glassmorphism funcional pendiente de imagen de fondo.
 - Identidad visual definida y aplicada.
+- Home avanzando con secciones clave completadas.
 
 ---
 
 ## Próximos pasos
 
 - Buscar y añadir imagen hero (Marbella / Costa del Sol — Unsplash).
-- Desarrollar sección Pain Points.
-- Desarrollar sección Cómo funciona.
+- Desarrollar sección Testimonials.
+- Desarrollar sección CTA final.
 - Desarrollar calculadora hipotecaria.
 - Desarrollar página Services completa.
 - Desarrollar página About.
 - Desarrollar página Contact con formulario.
 - Configurar Formspree con email de i-credit.
 - Deploy en Netlify de i-credit.
+- Definir dominio definitivo con Antonio.
