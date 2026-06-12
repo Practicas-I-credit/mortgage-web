@@ -109,7 +109,7 @@ export default function Home() {
             <div className="step-num">4</div>
             <div className="step-body">
               <h3>Sign and get your keys</h3>
-              <p>We accompany you to the notary — in person or remotely via Power of Attorney. Your Spanish home is ready.</p>
+              <p>We accompany you to the notary for the final signing. Your Spanish home is ready.</p>
             </div>
           </div>
         </div>
