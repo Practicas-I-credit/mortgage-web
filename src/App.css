@@ -4,12 +4,43 @@ header {
   padding: 0.8rem 2rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid rgba(232, 184, 75, 0.15);
 }
 
+#header-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 #header-logo {
-  height: 44px;
+  height: 32px;
   display: block;
+}
+
+#lang-es {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 5px 12px;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+#lang-es:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#lang-es span {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#lang-es svg {
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
 #header-name {
@@ -36,7 +67,7 @@ nav {
   padding: 0.8rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   border-bottom: 1px solid rgba(232, 184, 75, 0.1);
 }
 
@@ -72,6 +103,23 @@ nav {
 #nav-cta:hover {
   background: #b07820;
   opacity: 1;
+}
+
+#nav-flags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#nav-flags-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: 2px;
+}
+
+#nav-flags svg {
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
 /* ── RESPONSIVE NAVBAR ── */
