@@ -32,6 +32,24 @@
 
 ---
 
+## 12/06/2026
+
+### Actividades realizadas
+
+- Diseño y creación de logo SVG y favicon (concepto diamante con check).
+- Implementación de logo y favicon en mortgage-web.
+- Corrección de NavBar: eliminado enlace Calculator (pendiente de implementar).
+- Implementación de banderas decorativas en Header (España) y NavBar (EEUU, UK, Canadá).
+- Header preparado para selector de idioma EN/ES (pendiente de versión en español).
+
+### Resultado
+
+- Identidad visual unificada con logo propio.
+- Header y NavBar con detalle visual de banderas.
+- Base lista para futura versión bilingüe.
+
+---
+
 ## Próximos pasos
 
 - Buscar y añadir imagen hero (Marbella / Costa del Sol — Unsplash).
@@ -44,3 +62,4 @@
 - Configurar Formspree con email de i-credit.
 - Deploy en Netlify de i-credit.
 - Definir dominio definitivo con Antonio.
+- Conectar selector de idioma (bandera España) cuando exista versión .es.
