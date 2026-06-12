@@ -41,25 +41,33 @@
 - Corrección de NavBar: eliminado enlace Calculator (pendiente de implementar).
 - Implementación de banderas decorativas en Header (España) y NavBar (EEUU, UK, Canadá).
 - Header preparado para selector de idioma EN/ES (pendiente de versión en español).
+- Añadida imagen hero (Costa del Sol) y crédito de ubicación.
+- Implementadas imágenes en Services (Madrid), About (Barcelona) y Contact (Málaga).
+- Desarrollo de sección Testimonials con testimonios reales de i-credit adaptados al inglés.
+- Simplificación visual de Pain Points para coherencia con el resto de secciones.
+- Desarrollo de sección CTA final con botón de WhatsApp.
+- Desarrollo de calculadora hipotecaria funcional e interactiva en el hero (componente MortgageCalculator).
+- Página Services completa: hero, grid de servicios, why choose us.
+- Página About completa: hero, intro, stats, valores.
+- Página Contact completa: hero con imagen, info de contacto, formulario funcional con Formspree.
+- Corrección: eliminada referencia incorrecta a firma remota vía Power of Attorney — la firma final es presencial.
+- Añadida información de autoría (meta tag + README).
 
 ### Resultado
 
 - Identidad visual unificada con logo propio.
 - Header y NavBar con detalle visual de banderas.
 - Base lista para futura versión bilingüe.
+- Las 4 páginas principales (Home, Services, About, Contact) están completas y funcionales.
+- Formulario de contacto conectado a Formspree (endpoint propio de mortgage-web).
 
 ---
 
 ## Próximos pasos
 
-- Buscar y añadir imagen hero (Marbella / Costa del Sol — Unsplash).
-- Desarrollar sección Testimonials.
-- Desarrollar sección CTA final.
-- Desarrollar calculadora hipotecaria.
-- Desarrollar página Services completa.
-- Desarrollar página About.
-- Desarrollar página Contact con formulario.
-- Configurar Formspree con email de i-credit.
+- Desarrollar sección FAQ (Home o Services) — incluir preguntas clave: residencia en EEUU vs expat en España, requisitos, proceso, firma presencial obligatoria.
+- Probar envío real del formulario de contacto a info@i-credit.es.
 - Deploy en Netlify de i-credit.
-- Definir dominio definitivo con Antonio.
+- Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us).
 - Conectar selector de idioma (bandera España) cuando exista versión .es.
+- Revisión de contenido completo por parte de Antonio (textos, testimonios, FAQ, servicios).
