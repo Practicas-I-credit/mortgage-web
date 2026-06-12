@@ -178,17 +178,6 @@ nav {
   gap: 2rem;
 }
 
-#hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to right,
-    rgba(10, 22, 40, 0.92) 0%,
-    rgba(10, 22, 40, 0.75) 50%,
-    rgba(10, 22, 40, 0.3) 100%
-  );
-}
-
 #hero-content {
   position: relative;
   z-index: 1;
@@ -215,6 +204,7 @@ nav {
   color: #ffffff;
   line-height: 1.2;
   letter-spacing: -0.03em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
 
 #hero-accent {
@@ -225,6 +215,7 @@ nav {
   color: rgba(255, 255, 255, 0.78);
   font-size: 1rem;
   line-height: 1.7;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
 }
 
 #hero-btns {
@@ -340,8 +331,12 @@ nav {
   right: 16px;
   z-index: 5;
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.02em;
+  background: rgba(10, 22, 40, 0.4);
+  padding: 4px 10px;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
 }
 
 /* ── RESPONSIVE HERO ── */
@@ -440,7 +435,7 @@ nav {
 /* ── PAIN POINTS ── */
 #pain-points {
   padding: 4rem 2rem;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   width: 100%;
 }
@@ -472,55 +467,32 @@ nav {
 #pain-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
+  gap: 2rem;
 }
 
 .pain-card {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.4rem;
-  transition: border-color 0.2s;
-}
-
-.pain-card:hover {
-  border-color: var(--gold);
-}
-
-.pain-card-top {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.pain-card-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+.pain-icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   background: var(--dark);
+  border: 2px solid var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold-l);
-  font-size: 17px;
-  flex-shrink: 0;
-}
-
-.pain-badge {
-  background: rgba(201, 146, 42, 0.1);
-  color: var(--gold);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 20px;
+  font-size: 1.05rem;
 }
 
 .pain-card h3 {
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--text-h);
-  margin-bottom: 6px;
+  margin: 0;
 }
 
 .pain-card p {
@@ -528,18 +500,6 @@ nav {
   color: var(--text);
   line-height: 1.6;
   margin: 0;
-}
-
-.pain-card-footer {
-  margin-top: 14px;
-  padding-top: 12px;
-  border-top: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.78rem;
-  color: var(--gold);
-  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -649,6 +609,90 @@ nav {
 
   .step-body {
     align-items: flex-start;
+  }
+}
+
+/*-----------------------------------*/
+
+/* ── TESTIMONIALS ── */
+#testimonials {
+  background: var(--bg2);
+  padding: 4rem 2rem;
+}
+
+#testimonials h2 {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 2.5rem;
+  color: var(--text-h);
+}
+
+#testimonials-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.testimonial-card {
+  position: relative;
+  padding: 0 1.5rem;
+  border-left: 1px solid var(--border);
+}
+
+.testimonial-card:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.quote-mark {
+  font-family: serif;
+  font-size: 3.5rem;
+  color: rgba(201, 146, 42, 0.18);
+  line-height: 1;
+  height: 2rem;
+}
+
+.testimonial-text {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.65;
+  margin: 4px 0 18px;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.author-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.author-location {
+  font-size: 0.75rem;
+  color: var(--gold);
+}
+
+@media (max-width: 768px) {
+  #testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+  }
+
+  .testimonial-card:first-child {
+    border-top: none;
+    padding-top: 0;
   }
 }
 

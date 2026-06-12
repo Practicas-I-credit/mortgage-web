@@ -4,7 +4,6 @@ export default function Home() {
 
       {/* HERO */}
       <section id="hero">
-        <div id="hero-overlay" />
 
         <div id="hero-content">
           <div id="hero-badge">
@@ -77,44 +76,28 @@ export default function Home() {
         <p className="section-sub">Buying property in Spain as a foreigner can be complex. We simplify every step.</p>
         <div id="pain-grid">
           <div className="pain-card">
-            <div className="pain-card-top">
-              <div className="pain-card-icon">🗺️</div>
-              <span className="pain-badge">Distance</span>
-            </div>
+            <div className="pain-icon-circle">🗺️</div>
             <h3>You live far away</h3>
             <p>Managing a mortgage process from the US is overwhelming. We handle everything remotely so you don't have to travel until signing day.</p>
-            <div className="pain-card-footer">✓ We manage it remotely</div>
           </div>
           <div className="pain-card">
-            <div className="pain-card-top">
-              <div className="pain-card-icon">📋</div>
-              <span className="pain-badge">Paperwork</span>
-            </div>
+            <div className="pain-icon-circle">📋</div>
             <h3>Spanish bureaucracy</h3>
             <p>NIE, notary, taxes, bank requirements — the paperwork is endless. Our experts guide you through every step in English.</p>
-            <div className="pain-card-footer">✓ Full guidance in English</div>
           </div>
           <div className="pain-card">
-            <div className="pain-card-top">
-              <div className="pain-card-icon">🏦</div>
-              <span className="pain-badge">Bank access</span>
-            </div>
+            <div className="pain-icon-circle">🏦</div>
             <h3>Banks reject foreigners</h3>
             <p>Spanish banks are cautious with non-residents. We have exclusive agreements with 45+ banks to get you approved.</p>
-            <div className="pain-card-footer">✓ 45+ partner banks</div>
           </div>
           <div className="pain-card">
-            <div className="pain-card-top">
-              <div className="pain-card-icon">💸</div>
-              <span className="pain-badge">Costs</span>
-            </div>
+            <div className="pain-icon-circle">💸</div>
             <h3>Hidden costs</h3>
             <p>Taxes, fees, insurance — costs add up fast. We give you a full transparent breakdown before you commit to anything.</p>
-            <div className="pain-card-footer">✓ 100% transparent pricing</div>
           </div>
         </div>
       </section>
-      
+
       {/* HOW IT WORKS */}
       <section id="como-funciona">
         <p className="section-tag">The process</p>
@@ -147,6 +130,38 @@ export default function Home() {
             <div className="step-body">
               <h3>Sign and get your keys</h3>
               <p>We accompany you to the notary — in person or remotely via Power of Attorney. Your Spanish home is ready.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIALS */}
+      <section id="testimonials">
+        <p className="section-tag">What our clients say</p>
+        <h2>Trusted by clients buying in Spain</h2>
+        <div id="testimonials-grid">
+          <div className="testimonial-card">
+            <div className="quote-mark">"</div>
+            <p className="testimonial-text">The team managed my entire home purchase process. Without their help, getting the mortgage approved on the terms I needed wouldn't have been possible. Truly grateful for their patience and dedication.</p>
+            <div className="testimonial-author">
+              <p className="author-name">Rafael M.</p>
+              <p className="author-location">Madrid, Spain</p>
+            </div>
+          </div>
+          <div className="testimonial-card">
+            <div className="quote-mark">"</div>
+            <p className="testimonial-text">100% recommended. Excellent professionals who guide you through the entire mortgage process from start to finish, always finding the best terms available. Efficient, competitive, and always clear about every step.</p>
+            <div className="testimonial-author">
+              <p className="author-name">Boris R.</p>
+              <p className="author-location">Madrid, Spain</p>
+            </div>
+          </div>
+          <div className="testimonial-card">
+            <div className="quote-mark">"</div>
+            <p className="testimonial-text">They handled everything with great professionalism, even in a complex case. We stayed in close contact throughout the process and they always looked for the best possible solution for my situation.</p>
+            <div className="testimonial-author">
+              <p className="author-name">Roberto D.</p>
+              <p className="author-location">Madrid, Spain</p>
             </div>
           </div>
         </div>
