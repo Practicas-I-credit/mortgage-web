@@ -1,3 +1,5 @@
+import MortgageCalculator from '../components/MortgageCalculator'
+
 export default function Home() {
   return (
     <main>
@@ -19,30 +21,7 @@ export default function Home() {
         </div>
 
         {/* GLASS CARD */}
-        <div id="hero-glass">
-          <p id="glass-title">Mortgage estimate</p>
-          <div className="glass-row">
-            <span className="glass-label">Property value</span>
-            <span className="glass-val">€350,000</span>
-          </div>
-          <div className="glass-row">
-            <span className="glass-label">Down payment</span>
-            <span className="glass-val">30%</span>
-          </div>
-          <div className="glass-row">
-            <span className="glass-label">Fixed rate</span>
-            <span className="glass-val">3.2%</span>
-          </div>
-          <div className="glass-row">
-            <span className="glass-label">Term</span>
-            <span className="glass-val">25 years</span>
-          </div>
-          <div id="glass-result">
-            <span>Monthly payment</span>
-            <strong>~€1,190</strong>
-          </div>
-        </div>
-        <span id="hero-credit">Costa del Sol, Spain</span>
+        <MortgageCalculator />
       </section>
 
       {/* TRUST BAND */}
@@ -164,6 +143,16 @@ export default function Home() {
               <p className="author-location">Madrid, Spain</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CTA FINAL */}
+      <section id="cta-final">
+        <h2>Ready to make Spain your home?</h2>
+        <p>Get a free, no-obligation consultation with our English-speaking mortgage experts today.</p>
+        <div id="cta-btns">
+          <a href="/contact" id="btn-primary">Get a free quote</a>
+          <a href="https://wa.me/34609452314" id="btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Chat on WhatsApp</a>
         </div>
       </section>
 

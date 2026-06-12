@@ -325,6 +325,50 @@ nav {
   color: var(--gold-l);
 }
 
+.glass-input-row {
+  margin-bottom: 0.9rem;
+}
+
+.glass-input-row label {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 6px;
+}
+
+.glass-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+}
+
+.glass-input-wrap span {
+  font-size: 0.9rem;
+  color: var(--gold-l);
+  font-weight: 600;
+}
+
+.glass-input-wrap input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  width: 100%;
+  font-family: inherit;
+}
+
+.glass-input-wrap input::-webkit-outer-spin-button,
+.glass-input-wrap input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #hero-credit {
   position: absolute;
   bottom: 12px;
@@ -694,6 +738,51 @@ nav {
     border-top: none;
     padding-top: 0;
   }
+}
+
+/*-----------------------------------*/
+
+/* ── CTA FINAL ── */
+#cta-final {
+  background: var(--dark);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#cta-final h2 {
+  color: #ffffff;
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+#cta-final p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+#cta-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#btn-whatsapp {
+  background: #25D366;
+  color: #ffffff;
+  padding: 0.85rem 1.8rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+#btn-whatsapp:hover {
+  background: #1ea952;
 }
 
 /*-----------------------------------*/
