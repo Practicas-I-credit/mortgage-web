@@ -42,3 +42,8 @@ public/images/  # imágenes y logo
 ## Progreso
 
 Consultar: docs/progreso.md
+
+
+## Autoría
+
+Desarrollado por **Winiffer** ([@winiffer3](https://github.com/winiffer3)) como parte de las prácticas en **i-credit** (junio 2026).

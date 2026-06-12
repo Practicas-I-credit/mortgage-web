@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div id="header-logo-wrap">
         <img src="/images/logo.svg" alt="HipotecaInSpain" id="header-logo" />
-        <span id="header-name">Hipoteca<span className="header-accent">InSpain</span></span>
+        <span id="header-name">Mortgage<span className="header-accent">InSpain</span></span>
       </div>
 
       <Link to="/" id="lang-es" aria-label="Versión en español">

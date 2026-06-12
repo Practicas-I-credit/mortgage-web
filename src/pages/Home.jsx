@@ -153,7 +153,10 @@ export default function Home() {
         <p>Get a free, no-obligation consultation with our English-speaking mortgage experts today.</p>
         <div id="cta-btns">
           <a href="/contact" id="btn-primary">Get a free quote</a>
-          <a href="https://wa.me/34609452314" id="btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Chat on WhatsApp</a>
+          <a href="https://wa.me/34609452314" id="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <img src="/images/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
+            Chat on WhatsApp
+          </a>
         </div>
       </section>
 
