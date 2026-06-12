@@ -22,6 +22,7 @@ export default function Home() {
 
         {/* GLASS CARD */}
         <MortgageCalculator />
+        <span id="hero-credit">Costa del Sol, Spain</span>
       </section>
 
       {/* TRUST BAND */}
