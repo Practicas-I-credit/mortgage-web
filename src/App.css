@@ -334,6 +334,16 @@ nav {
   color: var(--gold-l);
 }
 
+#hero-credit {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  z-index: 5;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.02em;
+}
+
 /* ── RESPONSIVE HERO ── */
 @media (max-width: 768px) {
   #hero {

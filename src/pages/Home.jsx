@@ -43,6 +43,7 @@ export default function Home() {
             <strong>~€1,190</strong>
           </div>
         </div>
+        <span id="hero-credit">Costa del Sol, Spain</span>
       </section>
 
       {/* TRUST BAND */}
