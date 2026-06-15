@@ -63,11 +63,32 @@
 
 ---
 
+## 15/06/2026
+
+### Actividades realizadas
+
+- Desarrollo del componente FAQ con 7 preguntas clave para compradores americanos (US residents y expats).
+- Integración del FAQ en página Services.
+- Añadido checkbox de aceptación de Política de Privacidad en formulario de Contact (RGPD).
+- Desarrollo de página Privacy Policy con datos reales de i-credit.
+- Desarrollo de página 404 personalizada.
+- Añadido botón flotante de WhatsApp.
+- Preload de imágenes críticas en index.html de ambos proyectos para mejorar velocidad de carga.
+- Corrección: enlace al home añadido en el logo del header.
+
+### Resultado
+
+- Web mortgage-web prácticamente completa en versión inglés.
+- Ambos proyectos con mejoras de rendimiento y cumplimiento RGPD.
+
+---
+
 ## Próximos pasos
 
-- Desarrollar sección FAQ (Home o Services) — incluir preguntas clave: residencia en EEUU vs expat en España, requisitos, proceso, firma presencial obligatoria.
+- Desarrollar versión en español de mortgage-web.
 - Probar envío real del formulario de contacto a info@i-credit.es.
-- Deploy en Netlify de i-credit.
+- Añadir sitemap y robots.txt cuando se defina el dominio.
+- Deploy en Netlify de i-credit cuando Antonio tenga los dominios.
 - Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us).
-- Conectar selector de idioma (bandera España) cuando exista versión .es.
-- Revisión de contenido completo por parte de Antonio (textos, testimonios, FAQ, servicios).
+- Conectar selector de idioma (bandera España) cuando exista versión en español.
+- Revisión de contenido completo por parte de Antonio.
