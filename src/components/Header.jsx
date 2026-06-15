@@ -4,10 +4,10 @@ import { FlagES } from './Flags'
 export default function Header() {
   return (
     <header>
-      <div id="header-logo-wrap">
-        <img src="/images/logo.svg" alt="HipotecaInSpain" id="header-logo" />
+      <Link to="/" id="header-logo-wrap">
+        <img src="/images/logo.svg" alt="MortgageInSpain" id="header-logo" />
         <span id="header-name">Mortgage<span className="header-accent">InSpain</span></span>
-      </div>
+      </Link>
 
       <Link to="/" id="lang-es" aria-label="Versión en español">
         <FlagES />
