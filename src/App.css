@@ -1373,6 +1373,28 @@ nav {
   border-color: var(--gold);
 }
 
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-top: 2px;
+  accent-color: var(--gold);
+  flex-shrink: 0;
+}
+
+.checkbox-label a {
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+
 #form-submit {
   background: var(--gold);
   color: #ffffff;
