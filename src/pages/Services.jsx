@@ -1,3 +1,5 @@
+import FAQ from '../components/FAQ'
+
 export default function Services() {
   return (
     <main>
@@ -68,6 +70,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <FAQ />
 
     </main>
   )
