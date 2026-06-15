@@ -69,7 +69,7 @@ export default function Services() {
             <p>We have agreements with the largest network of banks in Spain to guarantee you the best mortgage.</p>
           </div>
         </div>
-      </section>
+      </section> 
       <FAQ />
 
     </main>
