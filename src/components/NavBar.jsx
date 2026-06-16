@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { FlagUS, FlagUK, FlagCA } from './Flags'
 
 export default function NavBar() {
   const [open, setOpen] = useState(false)
+  const { t } = useTranslation()
 
   return (
     <nav>
       <div id="nav-flags">
-        <span id="nav-flags-label">We help buyers from</span>
+        <span id="nav-flags-label">{t('nav.buyersFrom')}</span>
         <FlagUS />
         <FlagUK />
         <FlagCA />
@@ -19,10 +21,10 @@ export default function NavBar() {
       </button>
 
       <div id="nav-links" className={open ? 'open' : ''}>
-        <Link to="/">Home</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/about">About us</Link>
-        <Link to="/contact" id="nav-cta">Free consultation</Link>
+        <Link to="/">{t('nav.home')}</Link>
+        <Link to="/services">{t('nav.services')}</Link>
+        <Link to="/about">{t('nav.about')}</Link>
+        <Link to="/contact" id="nav-cta">{t('nav.cta')}</Link>
       </div>
     </nav>
   )

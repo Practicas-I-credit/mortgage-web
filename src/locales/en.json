@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "cta": "Free consultation",
+    "buyersFrom": "We help buyers from"
+  },
+  "header": {
+    "tagline": "Property in Spain"
+  },
+  "hero": {
+    "badge": "Licensed by Bank of Spain · D727",
+    "title1": "Your",
+    "titleAccent": "Spanish mortgage",
+    "title2": "without the hassle",
+    "subtitle": "Whether you live in the US or already in Spain — we help you get the best mortgage to buy your home here. Expert advice, 45+ partner banks, zero surprises.",
+    "btnPrimary": "Get a free quote",
+    "btnSecondary": "How it works",
+    "note": "US residents",
+    "note2": "Expats in Spain",
+    "note3": "Free consultation",
+    "credit": "Costa del Sol, Spain"
+  },
+  "calculator": {
+    "title": "Mortgage estimate",
+    "propertyValue": "Property value",
+    "term": "Term (years)",
+    "downPayment": "Down payment (20%)",
+    "fixedRate": "Fixed rate",
+    "monthlyPayment": "Monthly payment",
+    "years": "yrs"
+  },
+  "trustBand": {
+    "approval": "98% approval rate",
+    "banks": "45+ partner banks",
+    "phone": "+34 910 605 055",
+    "address": "Madrid, Paseo de la Infanta Isabel 27"
+  },
+  "stats": {
+    "approvalLabel": "Mortgage approval rate",
+    "banksLabel": "Partner banks in Spain",
+    "yearsLabel": "Years of experience"
+  },
+  "painPoints": {
+    "tag": "Common challenges",
+    "title": "We know the challenges you face",
+    "subtitle": "Buying property in Spain as a foreigner can be complex. We simplify every step.",
+    "distance": {
+      "title": "You live far away",
+      "text": "Managing a mortgage process from the US is overwhelming. We handle everything remotely so you don't have to travel until signing day."
+    },
+    "paperwork": {
+      "title": "Spanish bureaucracy",
+      "text": "NIE, notary, taxes, bank requirements — the paperwork is endless. Our experts guide you through every step."
+    },
+    "banks": {
+      "title": "Banks reject foreigners",
+      "text": "Spanish banks are cautious with non-residents. We have exclusive agreements with 45+ banks to get you approved."
+    },
+    "costs": {
+      "title": "Hidden costs",
+      "text": "Taxes, fees, insurance — costs add up fast. We give you a full transparent breakdown before you commit to anything."
+    }
+  },
+  "howItWorks": {
+    "tag": "The process",
+    "title": "How we get you your mortgage",
+    "subtitle": "Simple, transparent and fully managed from start to finish.",
+    "step1": {
+      "title": "Free consultation",
+      "text": "Tell us your situation — where you live, what property you want, your budget. We assess your eligibility at no cost."
+    },
+    "step2": {
+      "title": "We find the best offer",
+      "text": "We negotiate with 45+ Spanish banks on your behalf and bring you the best conditions available for your profile."
+    },
+    "step3": {
+      "title": "We handle the paperwork",
+      "text": "NIE, documentation, bank forms — we manage everything. You just review and approve at each stage."
+    },
+    "step4": {
+      "title": "Sign and get your keys",
+      "text": "We accompany you to the notary for the final signing. Your Spanish home is ready."
+    }
+  },
+  "testimonials": {
+    "tag": "What our clients say",
+    "title": "Trusted by clients buying in Spain",
+    "rafael": {
+      "text": "The team managed my entire home purchase process. Without their help, getting the mortgage approved on the terms I needed wouldn't have been possible. Truly grateful for their patience and dedication.",
+      "location": "Madrid, Spain"
+    },
+    "boris": {
+      "text": "100% recommended. Excellent professionals who guide you through the entire mortgage process from start to finish, always finding the best terms available. Efficient, competitive, and always clear about every step.",
+      "location": "Madrid, Spain"
+    },
+    "roberto": {
+      "text": "They handled everything with great professionalism, even in a complex case. We stayed in close contact throughout the process and they always looked for the best possible solution for my situation.",
+      "location": "Madrid, Spain"
+    }
+  },
+  "ctaFinal": {
+    "title": "Ready to make Spain your home?",
+    "subtitle": "Get a free, no-obligation consultation with our English-speaking mortgage experts today.",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "rights": "© 2026 MortgageInSpain",
+    "privacy": "Privacy Policy",
+    "info": "Licensed by Bank of Spain · D727 · Paseo de la Infanta Isabel 27, Madrid"
+  }
+}

@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer>
-      <span>© 2026 MortgageInSpain</span>
-      <Link to="/privacy" id="footer-privacy">Privacy Policy</Link>
+      <span>{t('footer.rights')}</span>
+      <Link to="/privacy" id="footer-privacy">{t('footer.privacy')}</Link>
       <div id="footer-copy">
-        Licensed by Bank of Spain · D727 · Paseo de la Infanta Isabel 27, Madrid
+        {t('footer.info')}
       </div>
     </footer>
   )

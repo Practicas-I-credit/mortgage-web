@@ -20,26 +20,98 @@ header {
   display: block;
 }
 
-#lang-es {
+#header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#spain-badge {
   display: flex;
   align-items: center;
   gap: 7px;
   background: rgba(255, 255, 255, 0.06);
   padding: 5px 12px;
   border-radius: 20px;
-  transition: background 0.2s;
 }
 
-#lang-es:hover {
-  background: rgba(255, 255, 255, 0.12);
-}
-
-#lang-es span {
+#spain-badge span {
   font-size: 0.78rem;
   color: rgba(255, 255, 255, 0.6);
 }
 
-#lang-es svg {
+#spain-badge svg {
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+#lang-switcher {
+  position: relative;
+}
+
+#lang-trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#lang-trigger:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#lang-trigger svg {
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.lang-icon {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#lang-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--dark);
+  border: 1px solid rgba(232, 184, 75, 0.2);
+  border-radius: 12px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 140px;
+  z-index: 200;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.lang-option:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.lang-option svg {
   border-radius: 2px;
   flex-shrink: 0;
 }

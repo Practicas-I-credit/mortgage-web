@@ -46,3 +46,23 @@ export function FlagCA() {
     </svg>
   )
 }
+
+export function FlagFR() {
+  return (
+    <svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg">
+      <rect width="6.67" height="14" fill="#002395"/>
+      <rect x="6.67" width="6.67" height="14" fill="#fff"/>
+      <rect x="13.33" width="6.67" height="14" fill="#ED2939"/>
+    </svg>
+  )
+}
+
+export function FlagDE() {
+  return (
+    <svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg">
+      <rect width="20" height="4.67" fill="#000000"/>
+      <rect y="4.67" width="20" height="4.67" fill="#DD0000"/>
+      <rect y="9.33" width="20" height="4.67" fill="#FFCE00"/>
+    </svg>
+  )
+}

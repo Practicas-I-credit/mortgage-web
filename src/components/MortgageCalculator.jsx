@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function MortgageCalculator() {
+  const { t } = useTranslation()
   const [precio, setPrecio] = useState(350000)
   const [plazo, setPlazo] = useState(25)
 
@@ -17,10 +19,10 @@ export default function MortgageCalculator() {
 
   return (
     <div id="hero-glass">
-      <p id="glass-title">Mortgage estimate</p>
+      <p id="glass-title">{t('calculator.title')}</p>
 
       <div className="glass-input-row">
-        <label>Property value</label>
+        <label>{t('calculator.propertyValue')}</label>
         <div className="glass-input-wrap">
           <span>€</span>
           <input
@@ -32,28 +34,28 @@ export default function MortgageCalculator() {
       </div>
 
       <div className="glass-input-row">
-        <label>Term (years)</label>
+        <label>{t('calculator.term')}</label>
         <div className="glass-input-wrap">
           <input
             type="number" min="1" max="40" step="1"
             value={plazo}
             onChange={(e) => setPlazo(Number(e.target.value) || 0)}
           />
-          <span>yrs</span>
+          <span>{t('calculator.years')}</span>
         </div>
       </div>
 
       <div className="glass-row">
-        <span className="glass-label">Down payment (20%)</span>
+        <span className="glass-label">{t('calculator.downPayment')}</span>
         <span className="glass-val">{fmt(entrada)}</span>
       </div>
       <div className="glass-row">
-        <span className="glass-label">Fixed rate</span>
+        <span className="glass-label">{t('calculator.fixedRate')}</span>
         <span className="glass-val">3.2%</span>
       </div>
 
       <div id="glass-result">
-        <span>Monthly payment</span>
+        <span>{t('calculator.monthlyPayment')}</span>
         <strong>~{fmt(cuota)}</strong>
       </div>
     </div>

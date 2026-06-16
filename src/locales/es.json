@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "cta": "Consulta gratuita",
+    "buyersFrom": "Ayudamos a compradores de"
+  },
+  "header": {
+    "tagline": "Propiedad en España"
+  },
+  "hero": {
+    "badge": "Autorizado por el Banco de España · D727",
+    "title1": "Tu",
+    "titleAccent": "hipoteca en España",
+    "title2": "sin complicaciones",
+    "subtitle": "Tanto si vives en EEUU como si ya estás en España — te ayudamos a conseguir la mejor hipoteca para comprar tu casa aquí. Asesoramiento experto, más de 45 bancos colaboradores, sin sorpresas.",
+    "btnPrimary": "Solicita presupuesto gratis",
+    "btnSecondary": "Cómo funciona",
+    "note": "Residentes en EEUU",
+    "note2": "Expatriados en España",
+    "note3": "Consulta gratuita",
+    "credit": "Costa del Sol, España"
+  },
+  "calculator": {
+    "title": "Estimación hipotecaria",
+    "propertyValue": "Valor de la propiedad",
+    "term": "Plazo (años)",
+    "downPayment": "Entrada (20%)",
+    "fixedRate": "Tipo fijo",
+    "monthlyPayment": "Cuota mensual",
+    "years": "años"
+  },
+  "trustBand": {
+    "approval": "98% de aprobación",
+    "banks": "45+ bancos colaboradores",
+    "phone": "+34 910 605 055",
+    "address": "Madrid, Paseo de la Infanta Isabel 27"
+  },
+  "stats": {
+    "approvalLabel": "Tasa de aprobación hipotecaria",
+    "banksLabel": "Bancos colaboradores en España",
+    "yearsLabel": "Años de experiencia"
+  },
+  "painPoints": {
+    "tag": "Retos comunes",
+    "title": "Conocemos los retos a los que te enfrentas",
+    "subtitle": "Comprar una propiedad en España como extranjero puede ser complejo. Simplificamos cada paso.",
+    "distance": {
+      "title": "Vives lejos",
+      "text": "Gestionar un proceso hipotecario desde EEUU resulta abrumador. Nos encargamos de todo a distancia para que no tengas que viajar hasta el día de la firma."
+    },
+    "paperwork": {
+      "title": "Burocracia española",
+      "text": "NIE, notaría, impuestos, requisitos bancarios — el papeleo es interminable. Nuestros expertos te guían en cada paso."
+    },
+    "banks": {
+      "title": "Los bancos rechazan a extranjeros",
+      "text": "Los bancos españoles son cautelosos con los no residentes. Tenemos acuerdos exclusivos con más de 45 bancos para conseguir tu aprobación."
+    },
+    "costs": {
+      "title": "Costes ocultos",
+      "text": "Impuestos, comisiones, seguros — los costes se acumulan rápido. Te damos un desglose completo y transparente antes de que te comprometas a nada."
+    }
+  },
+  "howItWorks": {
+    "tag": "El proceso",
+    "title": "Cómo conseguimos tu hipoteca",
+    "subtitle": "Sencillo, transparente y gestionado de principio a fin.",
+    "step1": {
+      "title": "Consulta gratuita",
+      "text": "Cuéntanos tu situación — dónde vives, qué propiedad buscas, tu presupuesto. Evaluamos tu viabilidad sin coste alguno."
+    },
+    "step2": {
+      "title": "Buscamos la mejor oferta",
+      "text": "Negociamos con más de 45 bancos españoles en tu nombre y te traemos las mejores condiciones disponibles para tu perfil."
+    },
+    "step3": {
+      "title": "Gestionamos el papeleo",
+      "text": "NIE, documentación, formularios bancarios — nos encargamos de todo. Tú solo revisas y apruebas en cada etapa."
+    },
+    "step4": {
+      "title": "Firma y recibe tus llaves",
+      "text": "Te acompañamos a la notaría para la firma final. Tu casa en España está lista."
+    }
+  },
+  "testimonials": {
+    "tag": "Lo que dicen nuestros clientes",
+    "title": "La confianza de quienes compran en España",
+    "rafael": {
+      "text": "El equipo gestionó todo el proceso de compra de mi vivienda. Sin su ayuda no habría sido posible conseguir la hipoteca en las condiciones que necesitaba. Muy agradecido por su paciencia y dedicación.",
+      "location": "Madrid, España"
+    },
+    "boris": {
+      "text": "100% recomendado. Excelentes profesionales que te acompañan en todo el proceso hipotecario de principio a fin, buscando siempre las mejores condiciones disponibles. Eficientes, competitivos y siempre claros en cada paso.",
+      "location": "Madrid, España"
+    },
+    "roberto": {
+      "text": "Gestionaron todo con gran profesionalidad, incluso en un caso complejo. Mantuvimos contacto cercano durante todo el proceso y siempre buscaron la mejor solución para mi situación.",
+      "location": "Madrid, España"
+    }
+  },
+  "ctaFinal": {
+    "title": "¿Listo para hacer de España tu hogar?",
+    "subtitle": "Solicita hoy una consulta gratuita y sin compromiso con nuestros expertos hipotecarios.",
+    "whatsapp": "Chatea por WhatsApp"
+  },
+  "footer": {
+    "rights": "© 2026 MortgageInSpain",
+    "privacy": "Política de Privacidad",
+    "info": "Autorizado por el Banco de España · D727 · Paseo de la Infanta Isabel 27, Madrid"
+  }
+}
