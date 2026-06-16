@@ -37,7 +37,12 @@ public/images/  # imágenes y logo
 - 🚧 En desarrollo
 - ✅ Estructura base completa
 - ✅ Hero con glassmorphism
-- ✅ Trust Band, Stats, Pain Points, How it works
+- ✅ Trust Band, Stats, Pain Points, How it works, Testimonials, CTA
+- ✅ Páginas Home, Services, About, Contact, Privacy, 404 completas
+- ✅ Formulario de contacto funcional (Formspree)
+- ✅ Sistema multiidioma con react-i18next (EN/ES) — base lista para FR/DE/IT/PT
+- ✅ Botón flotante de WhatsApp
+
 
 ## Progreso
 

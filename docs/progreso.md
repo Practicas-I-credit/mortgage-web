@@ -83,12 +83,35 @@
 
 ---
 
+## 16/06/2026
+
+### Actividades realizadas
+
+- Migración completa de mortgage-web a sistema de internacionalización (react-i18next), preparando la web para múltiples idiomas (inglés, español, y próximamente francés, alemán, italiano, portugués según solicitud de Antonio).
+- Creación de estructura de traducciones (src/locales/en.json, es.json).
+- Desarrollo de componente LanguageSwitcher con dropdown de banderas.
+- Migración completa de Home, Footer, Services, FAQ, About, Contact, Privacy y NotFound a i18next.
+- Ajuste de copys para eliminar referencias específicas a un idioma ("explained in English" → "without the hassle / sin complicaciones") por incompatibilidad con sistema multiidioma.
+- Mejora de legibilidad: doble text-shadow en todos los heros con imagen de fondo (Home, Services, About, Contact).
+- Añadido enlace al home en el logo del header.
+- Checkbox de política de privacidad.
+
+### Resultado
+
+- mortgage-web es ahora completamente bilingüe (EN/ES) con selector de idioma funcional.
+- Arquitectura preparada para añadir francés, alemán, italiano y portugués sin tocar componentes — solo se requiere crear y traducir los archivos JSON correspondientes.
+- Legibilidad de texto sobre imágenes mejorada en todas las páginas.
+- Identificada necesidad de refactorización de CSS (clases repetidas: icon-circle, section-tag, page-hero) — pendiente.
+
+---
+
 ## Próximos pasos
 
-- Desarrollar versión en español de mortgage-web.
+- Traducir mortgage-web a francés, alemán, italiano y portugués (traducción + revisión con traductor).
 - Probar envío real del formulario de contacto a info@i-credit.es.
 - Añadir sitemap y robots.txt cuando se defina el dominio.
 - Deploy en Netlify de i-credit cuando Antonio tenga los dominios.
-- Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us).
-- Conectar selector de idioma (bandera España) cuando exista versión en español.
+- Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us, y dominios adicionales para otros idiomas).
+- Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
+- Refactorizar CSS — unificar clases repetidas en clases compartidas.
 - Revisión de contenido completo por parte de Antonio.
