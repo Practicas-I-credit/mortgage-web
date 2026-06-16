@@ -1,65 +1,69 @@
+import { useTranslation } from 'react-i18next'
+
 export default function About() {
+  const { t } = useTranslation()
+
   return (
     <main>
 
       {/* HERO */}
       <section id="about-hero">
         <div id="about-hero-content">
-          <p className="section-tag-light">About us</p>
-          <h1>We know the way to your dream home</h1>
-          <p>Specialized mortgage advisors helping Americans navigate the Spanish property market — wherever you call home.</p>
+          <p className="section-tag-light">{t('about.tag')}</p>
+          <h1>{t('about.heroTitle')}</h1>
+          <p>{t('about.heroSubtitle')}</p>
         </div>
-        <span className="page-hero-credit">Barcelona, Spain</span>
+        <span className="page-hero-credit">{t('about.credit')}</span>
       </section>
 
       {/* INTRO */}
       <section id="about-intro">
         <div id="about-intro-text">
-          <p className="section-tag">Who we are</p>
-          <h2>Always tailored to your needs</h2>
-          <p>No matter how complex your situation seems, don't hesitate to bring it to us — for us, the client is always the absolute priority. We ensure your complete peace of mind throughout the entire process.</p>
-          <p>As specialized mortgage advisors, we help our clients secure the best financial terms, generating significant savings over the life of their loan.</p>
+          <p className="section-tag">{t('about.introTag')}</p>
+          <h2>{t('about.introTitle')}</h2>
+          <p>{t('about.introText1')}</p>
+          <p>{t('about.introText2')}</p>
         </div>
         <div id="about-intro-stats">
           <div className="intro-stat">
             <span className="intro-stat-num">45+</span>
-            <span className="intro-stat-label">Partner banks nationwide</span>
+            <span className="intro-stat-label">{t('about.statBanks')}</span>
           </div>
           <div className="intro-stat">
             <span className="intro-stat-num">20+</span>
-            <span className="intro-stat-label">Years of experience</span>
+            <span className="intro-stat-label">{t('about.statYears')}</span>
           </div>
           <div className="intro-stat">
             <span className="intro-stat-num">98%</span>
-            <span className="intro-stat-label">Approval rate</span>
+            <span className="intro-stat-label">{t('about.statApproval')}</span>
           </div>
         </div>
       </section>
 
       {/* VALUES */}
       <section id="about-values">
-        <p className="section-tag">What sets us apart</p>
-        <h2>How we work for you</h2>
+        <p className="section-tag">{t('about.valuesTag')}</p>
+        <h2>{t('about.valuesTitle')}</h2>
         <div id="values-grid">
           <div className="value-card">
             <div className="value-icon-circle">🌍</div>
-            <h3>Nationwide coverage</h3>
-            <p>We work across all of Spain — wherever your dream property is located.</p>
+            <h3>{t('about.value1.title')}</h3>
+            <p>{t('about.value1.text')}</p>
           </div>
           <div className="value-card">
             <div className="value-icon-circle">🔍</div>
-            <h3>Detailed needs analysis</h3>
-            <p>We study your situation in depth before recommending any solution.</p>
+            <h3>{t('about.value2.title')}</h3>
+            <p>{t('about.value2.text')}</p>
           </div>
           <div className="value-card">
             <div className="value-icon-circle">🏦</div>
-            <h3>Tailored bank matching</h3>
-            <p>We search across all partner banks to find the offer that truly fits you.</p>
+            <h3>{t('about.value3.title')}</h3>
+            <p>{t('about.value3.text')}</p>
           </div>
           <div className="value-card">
             <div className="value-icon-circle">📞</div>
-            <h3>Continuous support</h3>
-            <p>We keep you informed and by your side throughout the entire process.</p>
+            <h3>{t('about.value4.title')}</h3>
+            <p>{t('about.value4.text')}</p>
           </div>
         </div>
       </section>

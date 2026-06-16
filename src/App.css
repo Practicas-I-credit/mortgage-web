@@ -277,7 +277,7 @@ nav {
   color: #ffffff;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
 }
 
 #hero-accent {
@@ -285,10 +285,10 @@ nav {
 }
 
 #hero-content p {
-  color: rgba(255, 255, 255, 0.78);
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.7;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 #hero-btns {
@@ -327,8 +327,9 @@ nav {
 }
 
 #hero-note {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 0.8rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* ── HERO GLASS CARD ── */
@@ -900,16 +901,16 @@ nav {
   color: #ffffff;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
   margin-bottom: 0.6rem;
 }
 
 #services-hero-content p {
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
   font-size: 0.95rem;
   line-height: 1.65;
   max-width: 480px;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 .page-hero-credit {
@@ -1132,16 +1133,16 @@ nav {
   color: #ffffff;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
   margin-bottom: 0.6rem;
 }
 
 #about-hero-content p {
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
   font-size: 0.95rem;
   line-height: 1.65;
   max-width: 480px;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* ── ABOUT INTRO ── */
@@ -1298,7 +1299,7 @@ nav {
   color: #ffffff;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
   margin-bottom: 0.6rem;
 }
 
@@ -1307,11 +1308,11 @@ nav {
 }
 
 #contact-hero-content p {
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
   font-size: 0.95rem;
   line-height: 1.65;
   max-width: 480px;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* ── CONTACT BAND ── */

@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
-  const [terms, setTerms] = useState(false)
+  const { t } = useTranslation()
   const [enviado, setEnviado] = useState(false)
   const [enviando, setEnviando] = useState(false)
   const [errores, setErrores] = useState({})
+  const [terms, setTerms] = useState(false)
   const [form, setForm] = useState({
     nombre: '',
     email: '',
@@ -22,33 +24,33 @@ export default function Contact() {
     const nuevosErrores = {}
 
     if (!form.nombre.trim()) {
-      nuevosErrores.nombre = 'Name is required'
+      nuevosErrores.nombre = t('contact.errorName')
     } else if (form.nombre.trim().length < 3) {
-      nuevosErrores.nombre = 'Name must be at least 3 characters'
+      nuevosErrores.nombre = t('contact.errorNameMin')
     }
 
     if (!form.email.trim()) {
-      nuevosErrores.email = 'Email is required'
+      nuevosErrores.email = t('contact.errorEmailRequired')
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      nuevosErrores.email = 'Enter a valid email'
+      nuevosErrores.email = t('contact.errorEmailInvalid')
     }
 
     if (form.telefono && !/^[+\d\s]{7,15}$/.test(form.telefono)) {
-      nuevosErrores.telefono = 'Enter a valid phone number'
+      nuevosErrores.telefono = t('contact.errorPhone')
     }
 
     if (!form.servicio) {
-      nuevosErrores.servicio = 'Select a service'
+      nuevosErrores.servicio = t('contact.errorService')
     }
 
     if (!form.mensaje.trim()) {
-      nuevosErrores.mensaje = 'Tell us about your situation'
+      nuevosErrores.mensaje = t('contact.errorMessageRequired')
     } else if (form.mensaje.trim().length < 20) {
-      nuevosErrores.mensaje = 'Please add a bit more detail (minimum 20 characters)'
+      nuevosErrores.mensaje = t('contact.errorMessageMin')
     }
 
     if (!terms) {
-      nuevosErrores.terms = 'You must accept the Privacy Policy to continue'
+      nuevosErrores.terms = t('contact.errorTerms')
     }
 
     return nuevosErrores
@@ -76,7 +78,7 @@ export default function Contact() {
     if (response.ok) {
       setEnviado(true)
     } else {
-      setErrores({ general: 'There was an error sending your message. Please try again or contact us directly.' })
+      setErrores({ general: t('contact.errorGeneral') })
     }
     setEnviando(false)
   }
@@ -87,19 +89,19 @@ export default function Contact() {
       {/* HERO */}
       <section id="contact-hero">
         <div id="contact-hero-content">
-          <p className="section-tag-light">Get in touch</p>
-          <h1>Let's talk about your <span id="hero-accent-light">Spanish mortgage</span></h1>
-          <p>Tell us about your situation and we'll get back to you within 24 hours — in English.</p>
+          <p className="section-tag-light">{t('contact.tag')}</p>
+          <h1>{t('contact.heroTitle1')} <span id="hero-accent-light">{t('contact.heroAccent')}</span></h1>
+          <p>{t('contact.heroSubtitle')}</p>
         </div>
-        <span className="page-hero-credit">Málaga, Spain</span>
+        <span className="page-hero-credit">{t('contact.credit')}</span>
       </section>
 
       {/* BAND */}
       <div id="contact-band">
-        <div className="band-item"><span>⏱️</span> Reply within 24h</div>
-        <div className="band-item"><span>✅</span> Free consultation</div>
+        <div className="band-item"><span>⏱️</span> {t('contact.bandReply')}</div>
+        <div className="band-item"><span>✅</span> {t('contact.bandFree')}</div>
         <div className="band-item"><span>📞</span> +34 910 605 055</div>
-        <div className="band-item"><span>📍</span> Madrid, Paseo de la Infanta Isabel 27</div>
+        <div className="band-item"><span>📍</span> {t('trustBand.address')}</div>
       </div>
 
       {/* CONTENT */}
@@ -107,11 +109,11 @@ export default function Contact() {
 
         {/* INFO */}
         <div id="contact-info">
-          <h2>Other ways to reach us</h2>
+          <h2>{t('contact.otherWays')}</h2>
           <div id="contact-items">
             <a href="https://wa.me/34609452314" className="contact-item contact-whatsapp">
               <img src="/images/WhatsApp.svg" alt="WhatsApp" width="20" height="20" />
-              WhatsApp — instant reply
+              {t('contact.whatsapp')}
             </a>
             <a href="tel:+34910605055" className="contact-item contact-tel">
               📞 +34 910 605 055
@@ -125,18 +127,18 @@ export default function Contact() {
           </div>
 
           <div id="contact-hours">
-            <h3>Office hours</h3>
-            <p>Monday to Thursday: 9:00 AM – 6:00 PM</p>
-            <p>Friday: 9:00 AM – 3:00 PM</p>
-            <p>Saturday and Sunday: closed</p>
-            <p id="contact-tz">(Madrid time — CET/CEST)</p>
+            <h3>{t('contact.hoursTitle')}</h3>
+            <p>{t('contact.hours1')}</p>
+            <p>{t('contact.hours2')}</p>
+            <p>{t('contact.hours3')}</p>
+            <p id="contact-tz">{t('contact.hoursTz')}</p>
           </div>
 
           <div id="contact-address">
-            <h3>Visit us</h3>
-            <p>Paseo de la Infanta Isabel, 27</p>
-            <p>1st floor, exterior left</p>
-            <p>28014 — Madrid, Spain</p>
+            <h3>{t('contact.addressTitle')}</h3>
+            <p>{t('contact.address1')}</p>
+            <p>{t('contact.address2')}</p>
+            <p>{t('contact.address3')}</p>
           </div>
         </div>
 
@@ -145,8 +147,8 @@ export default function Contact() {
           {enviado ? (
             <div id="form-success">
               <span>✅</span>
-              <h3>Message received!</h3>
-              <p>We'll get back to you within 24 hours. Thank you for reaching out!</p>
+              <h3>{t('contact.successTitle')}</h3>
+              <p>{t('contact.successText')}</p>
             </div>
           ) : (
             <form id="contact-form" onSubmit={handleSubmit} noValidate>
@@ -156,10 +158,10 @@ export default function Contact() {
               )}
 
               <div className="form-group">
-                <label>Full name</label>
+                <label>{t('contact.formName')}</label>
                 <input
                   type="text" name="nombre"
-                  placeholder="Your name"
+                  placeholder={t('contact.formNamePlaceholder')}
                   value={form.nombre}
                   onChange={handleChange}
                   className={errores.nombre ? 'input-error' : ''}
@@ -168,10 +170,10 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label>Email</label>
+                <label>{t('contact.formEmail')}</label>
                 <input
                   type="email" name="email"
-                  placeholder="you@email.com"
+                  placeholder={t('contact.formEmailPlaceholder')}
                   value={form.email}
                   onChange={handleChange}
                   className={errores.email ? 'input-error' : ''}
@@ -180,10 +182,10 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label>Phone / WhatsApp <span className="opcional">(optional)</span></label>
+                <label>{t('contact.formPhone')} <span className="opcional">{t('contact.formOptional')}</span></label>
                 <input
                   type="tel" name="telefono"
-                  placeholder="+1 555 000 0000"
+                  placeholder={t('contact.formPhonePlaceholder')}
                   value={form.telefono}
                   onChange={handleChange}
                   className={errores.telefono ? 'input-error' : ''}
@@ -192,27 +194,27 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label>How can we help you?</label>
+                <label>{t('contact.formService')}</label>
                 <select
                   name="servicio"
                   value={form.servicio}
                   onChange={handleChange}
                   className={errores.servicio ? 'input-error' : ''}
                 >
-                  <option value="">Select a service</option>
-                  <option value="hipoteca">Mortgage loan</option>
-                  <option value="subrogacion">Mortgage switching / subrogation</option>
-                  <option value="personal">Personal loan</option>
-                  <option value="reunificacion">Debt consolidation</option>
+                  <option value="">{t('contact.formServiceSelect')}</option>
+                  <option value="hipoteca">{t('contact.formServiceMortgage')}</option>
+                  <option value="subrogacion">{t('contact.formServiceSwitching')}</option>
+                  <option value="personal">{t('contact.formServicePersonal')}</option>
+                  <option value="reunificacion">{t('contact.formServiceConsolidation')}</option>
                 </select>
                 {errores.servicio && <span className="error-msg">{errores.servicio}</span>}
               </div>
 
               <div className="form-group">
-                <label>Tell us about your situation</label>
+                <label>{t('contact.formMessage')}</label>
                 <textarea
                   name="mensaje" rows="4"
-                  placeholder="Are you a US resident or already living in Spain? What's your budget? Any timeline?"
+                  placeholder={t('contact.formMessagePlaceholder')}
                   value={form.mensaje}
                   onChange={handleChange}
                   className={errores.mensaje ? 'input-error' : ''}
@@ -230,14 +232,14 @@ export default function Contact() {
                       setErrores({ ...errores, terms: '' })
                     }}
                   />
-                  I have read and accept the{' '}
-                  <a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                  {t('contact.formTerms1')}{' '}
+                  <a href="/privacy" target="_blank" rel="noopener noreferrer">{t('contact.formTerms2')}</a>
                 </label>
                 {errores.terms && <span className="error-msg">{errores.terms}</span>}
               </div>
 
               <button type="submit" id="form-submit" disabled={enviando}>
-                {enviando ? 'Sending...' : 'Send free inquiry'}
+                {enviando ? t('contact.formSending') : t('contact.formSubmit')}
               </button>
 
             </form>
