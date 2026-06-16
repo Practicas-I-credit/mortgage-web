@@ -18,7 +18,7 @@ export default function FAQ() {
   return (
     <section id="faq">
       <p className="section-tag">{t('faq.tag')}</p>
-      <h2>{t('faq.title')}</h2>
+      <h2 className="section-title section-title-spaced">{t('faq.title')}</h2>
       <div id="faq-list">
         {faqs.map((item, i) => (
           <div

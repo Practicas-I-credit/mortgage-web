@@ -474,15 +474,6 @@ nav {
 /*-----------------------------------*/
 
 /* ── TRUST BAND ── */
-#trust-band {
-  background: #0d1e35;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(232, 184, 75, 0.1);
-}
 
 .band-item {
   color: rgba(255, 255, 255, 0.78);
@@ -558,13 +549,6 @@ nav {
   width: 100%;
 }
 
-#pain-points h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
-  color: var(--text-h);
-}
-
 .section-sub {
   text-align: center;
   color: var(--text);
@@ -588,38 +572,6 @@ nav {
   gap: 2rem;
 }
 
-.pain-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.pain-icon-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--dark);
-  border: 2px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.05rem;
-}
-
-.pain-card h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-h);
-  margin: 0;
-}
-
-.pain-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.6;
-  margin: 0;
-}
-
 @media (max-width: 768px) {
   #pain-grid {
     grid-template-columns: 1fr;
@@ -632,13 +584,6 @@ nav {
 #como-funciona {
   background: var(--bg2);
   padding: 4rem 2rem;
-}
-
-#como-funciona h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
-  color: var(--text-h);
 }
 
 #steps {
@@ -672,14 +617,6 @@ nav {
 }
 
 .step-num {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--dark);
-  border: 2px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--gold-l);
@@ -736,13 +673,6 @@ nav {
 #testimonials {
   background: var(--bg2);
   padding: 4rem 2rem;
-}
-
-#testimonials h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 2.5rem;
-  color: var(--text-h);
 }
 
 #testimonials-grid {
@@ -863,7 +793,6 @@ nav {
 }
 
 /*-----------------------------------*/
-
 /*-----------------PAG SERVICES--------------*/
 
 /* ── SERVICES HERO ── */
@@ -895,24 +824,6 @@ nav {
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
-#services-hero-content h1 {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
-  margin-bottom: 0.6rem;
-}
-
-#services-hero-content p {
-  color: #ffffff;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  max-width: 480px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
-}
-
 .page-hero-credit {
   position: absolute;
   bottom: 12px;
@@ -935,48 +846,16 @@ nav {
   width: 100%;
 }
 
-#services-grid-section h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 0.4rem;
-  color: var(--text-h);
-}
-
 #services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
-.service-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.service-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--dark);
-  border: 2px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.05rem;
-}
-
 .service-card h3 {
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-h);
-  margin: 0;
-}
-
-.service-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.6;
   margin: 0;
 }
 
@@ -992,51 +871,12 @@ nav {
   padding: 4rem 2rem;
 }
 
-#why-us h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 2.5rem;
-  color: var(--text-h);
-}
-
 #why-grid {
   max-width: 900px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-}
-
-.why-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.why-icon-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--dark);
-  border: 2px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.05rem;
-}
-
-.why-card h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-h);
-  margin: 0;
-}
-
-.why-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.6;
-  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -1051,13 +891,6 @@ nav {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
-}
-
-#faq h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 2.5rem;
-  color: var(--text-h);
 }
 
 #faq-list {
@@ -1125,24 +958,6 @@ nav {
   position: relative;
   z-index: 1;
   max-width: 600px;
-}
-
-#about-hero-content h1 {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
-  margin-bottom: 0.6rem;
-}
-
-#about-hero-content p {
-  color: #ffffff;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  max-width: 480px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* ── ABOUT INTRO ── */
@@ -1217,13 +1032,6 @@ nav {
   padding: 4rem 2rem;
 }
 
-#about-values h2 {
-  text-align: center;
-  font-size: clamp(1.4rem, 3vw, 1.9rem);
-  margin-bottom: 2.5rem;
-  color: var(--text-h);
-}
-
 #values-grid {
   max-width: 900px;
   margin: 0 auto;
@@ -1232,44 +1040,11 @@ nav {
   gap: 24px;
 }
 
-.value-card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.value-icon-circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--dark);
-  border: 2px solid var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.05rem;
-}
-
-.value-card h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-h);
-  margin: 0;
-}
-
-.value-card p {
-  font-size: 0.85rem;
-  color: var(--text);
-  line-height: 1.6;
-  margin: 0;
-}
-
 @media (max-width: 768px) {
   #values-grid {
     grid-template-columns: 1fr;
   }
 }
-
 
 /*-----------------------------------*/
 /*-----------------PAG CONTACT--------------*/
@@ -1293,37 +1068,8 @@ nav {
   max-width: 600px;
 }
 
-#contact-hero-content h1 {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
-  margin-bottom: 0.6rem;
-}
-
 #hero-accent-light {
   color: var(--gold-l);
-}
-
-#contact-hero-content p {
-  color: #ffffff;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  max-width: 480px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
-}
-
-/* ── CONTACT BAND ── */
-#contact-band {
-  background: #0d1e35;
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid rgba(232, 184, 75, 0.1);
 }
 
 /* ── CONTACT GRID ── */

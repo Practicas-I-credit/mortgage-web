@@ -90,14 +90,14 @@ export default function Contact() {
       <section id="contact-hero">
         <div id="contact-hero-content">
           <p className="section-tag-light">{t('contact.tag')}</p>
-          <h1>{t('contact.heroTitle1')} <span id="hero-accent-light">{t('contact.heroAccent')}</span></h1>
-          <p>{t('contact.heroSubtitle')}</p>
+          <h1 className="page-hero-title">{t('contact.heroTitle1')} <span id="hero-accent-light">{t('contact.heroAccent')}</span></h1>
+          <p className="page-hero-text">{t('contact.heroSubtitle')}</p>
         </div>
         <span className="page-hero-credit">{t('contact.credit')}</span>
       </section>
 
       {/* BAND */}
-      <div id="contact-band">
+      <div className="trust-band">
         <div className="band-item"><span>⏱️</span> {t('contact.bandReply')}</div>
         <div className="band-item"><span>✅</span> {t('contact.bandFree')}</div>
         <div className="band-item"><span>📞</span> +34 910 605 055</div>

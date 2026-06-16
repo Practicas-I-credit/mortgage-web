@@ -10,8 +10,8 @@ export default function About() {
       <section id="about-hero">
         <div id="about-hero-content">
           <p className="section-tag-light">{t('about.tag')}</p>
-          <h1>{t('about.heroTitle')}</h1>
-          <p>{t('about.heroSubtitle')}</p>
+          <h1 className="page-hero-title">{t('about.heroTitle')}</h1>
+          <p className="page-hero-text">{t('about.heroSubtitle')}</p>
         </div>
         <span className="page-hero-credit">{t('about.credit')}</span>
       </section>
@@ -43,27 +43,27 @@ export default function About() {
       {/* VALUES */}
       <section id="about-values">
         <p className="section-tag">{t('about.valuesTag')}</p>
-        <h2>{t('about.valuesTitle')}</h2>
+        <h2 className="section-title section-title-spaced">{t('about.valuesTitle')}</h2>
         <div id="values-grid">
-          <div className="value-card">
-            <div className="value-icon-circle">🌍</div>
-            <h3>{t('about.value1.title')}</h3>
-            <p>{t('about.value1.text')}</p>
+          <div className="value-card card-simple">
+            <div className="value-icon-circle icon-circle">🌍</div>
+            <h3 card-simple-title>{t('about.value1.title')}</h3>
+            <p card-simple-text>{t('about.value1.text')}</p>
           </div>
-          <div className="value-card">
-            <div className="value-icon-circle">🔍</div>
-            <h3>{t('about.value2.title')}</h3>
-            <p>{t('about.value2.text')}</p>
+          <div className="value-card card-simple">
+            <div className="value-icon-circle icon-circle">🔍</div>
+            <h3 card-simple-title>{t('about.value2.title')}</h3>
+            <p card-simple-text>{t('about.value2.text')}</p>
           </div>
-          <div className="value-card">
-            <div className="value-icon-circle">🏦</div>
-            <h3>{t('about.value3.title')}</h3>
-            <p>{t('about.value3.text')}</p>
+          <div className="value-card card-simple">
+            <div className="value-icon-circle icon-circle">🏦</div>
+            <h3 card-simple-title>{t('about.value3.title')}</h3>
+            <p card-simple-text>{t('about.value3.text')}</p>
           </div>
-          <div className="value-card">
-            <div className="value-icon-circle">📞</div>
-            <h3>{t('about.value4.title')}</h3>
-            <p>{t('about.value4.text')}</p>
+          <div className="value-card card-simple">
+            <div className="value-icon-circle icon-circle">📞</div>
+            <h3 card-simple-title>{t('about.value4.title')}</h3>
+            <p card-simple-text>{t('about.value4.text')}</p>
           </div>
         </div>
       </section>

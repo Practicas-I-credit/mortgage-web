@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       {/* TRUST BAND */}
-      <div id="trust-band">
+      <div className="trust-band">
         <div className="band-item"><span>✅</span> {t('trustBand.approval')}</div>
         <div className="band-item"><span>🏦</span> {t('trustBand.banks')}</div>
         <div className="band-item"><span>📞</span> {t('trustBand.phone')}</div>
@@ -55,28 +55,28 @@ export default function Home() {
       {/* PAIN POINTS */}
       <section id="pain-points">
         <p className="section-tag">{t('painPoints.tag')}</p>
-        <h2>{t('painPoints.title')}</h2>
+        <h2 className="section-title">{t('painPoints.title')}</h2>
         <p className="section-sub">{t('painPoints.subtitle')}</p>
         <div id="pain-grid">
-          <div className="pain-card">
-            <div className="pain-icon-circle">🗺️</div>
-            <h3>{t('painPoints.distance.title')}</h3>
-            <p>{t('painPoints.distance.text')}</p>
+          <div className="pain-card card-simple">
+            <div className="pain-icon-circle icon-circle">🗺️</div>
+            <h3 className="card-simple-title">{t('painPoints.distance.title')}</h3>
+            <p card-simple-text>{t('painPoints.distance.text')}</p>
           </div>
-          <div className="pain-card">
-            <div className="pain-icon-circle">📋</div>
-            <h3>{t('painPoints.paperwork.title')}</h3>
-            <p>{t('painPoints.paperwork.text')}</p>
+          <div className="pain-card card-simple">
+            <div className="pain-icon-circle icon-circle">📋</div>
+            <h3 className="card-simple-title">{t('painPoints.paperwork.title')}</h3>
+            <p card-simple-text>{t('painPoints.paperwork.text')}</p>
           </div>
-          <div className="pain-card">
-            <div className="pain-icon-circle">🏦</div>
-            <h3>{t('painPoints.banks.title')}</h3>
-            <p>{t('painPoints.banks.text')}</p>
+          <div className="pain-card card-simple">
+            <div className="pain-icon-circle icon-circle">🏦</div>
+            <h3 className="card-simple-title">{t('painPoints.banks.title')}</h3>
+            <p card-simple-text>{t('painPoints.banks.text')}</p>
           </div>
-          <div className="pain-card">
-            <div className="pain-icon-circle">💸</div>
-            <h3>{t('painPoints.costs.title')}</h3>
-            <p>{t('painPoints.costs.text')}</p>
+          <div className="pain-card card-simple">
+            <div className="pain-icon-circle icon-circle">💸</div>
+            <h3 className="card-simple-title">{t('painPoints.costs.title')}</h3>
+            <p card-simple-text>{t('painPoints.costs.text')}</p>
           </div>
         </div>
       </section>
@@ -84,32 +84,32 @@ export default function Home() {
       {/* HOW IT WORKS */}
       <section id="como-funciona">
         <p className="section-tag">{t('howItWorks.tag')}</p>
-        <h2>{t('howItWorks.title')}</h2>
+        <h2 className="section-title">{t('howItWorks.title')}</h2>
         <p className="section-sub">{t('howItWorks.subtitle')}</p>
         <div id="steps">
           <div className="step">
-            <div className="step-num">1</div>
+            <div className="step-num icon-circle">1</div>
             <div className="step-body">
               <h3>{t('howItWorks.step1.title')}</h3>
               <p>{t('howItWorks.step1.text')}</p>
             </div>
           </div>
           <div className="step">
-            <div className="step-num">2</div>
+            <div className="step-num icon-circle">2</div>
             <div className="step-body">
               <h3>{t('howItWorks.step2.title')}</h3>
               <p>{t('howItWorks.step2.text')}</p>
             </div>
           </div>
           <div className="step">
-            <div className="step-num">3</div>
+            <div className="step-num icon-circle">3</div>
             <div className="step-body">
               <h3>{t('howItWorks.step3.title')}</h3>
               <p>{t('howItWorks.step3.text')}</p>
             </div>
           </div>
           <div className="step">
-            <div className="step-num">4</div>
+            <div className="step-num icon-circle">4</div>
             <div className="step-body">
               <h3>{t('howItWorks.step4.title')}</h3>
               <p>{t('howItWorks.step4.text')}</p>
@@ -121,7 +121,7 @@ export default function Home() {
       {/* TESTIMONIALS */}
       <section id="testimonials">
         <p className="section-tag">{t('testimonials.tag')}</p>
-        <h2>{t('testimonials.title')}</h2>
+        <h2 className="section-title section-title-spaced">{t('testimonials.title')}</h2>
         <div id="testimonials-grid">
           <div className="testimonial-card">
             <div className="quote-mark">"</div>

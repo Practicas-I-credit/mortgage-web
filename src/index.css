@@ -26,3 +26,83 @@ body {
 
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; display: block; }
+
+/*-- Icon circle: usado en pain points, services, why-us, about-values, how-it-works --*/
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--dark);
+  border: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+}
+
+/*-- Card simple: contenedor flex column para pain points, services, why-us, about-values --*/
+.card-simple {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Título de card simple: pain points, services, why-us, about-values */
+.card-simple-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+}
+
+/* Texto de card simple: pain points, services, why-us, about-values */
+.card-simple-text {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Título de sección centrado: usado en pain points, how-it-works, testimonials, services, why-us, faq, about-values */
+.section-title {
+  text-align: center;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  color: var(--text-h);
+  margin-bottom: 0.4rem;
+}
+
+/* Variante con más espacio inferior */
+.section-title-spaced {
+  margin-bottom: 2.5rem;
+}
+
+/* Hero de página interna (Services, About, Contact): título sobre imagen */
+.page-hero-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
+  margin-bottom: 0.6rem;
+}
+
+/* Hero de página interna: párrafo sobre imagen */
+.page-hero-text {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  max-width: 480px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+/* Banda de confianza: usada en Home y Contact */
+.trust-band {
+  background: #0d1e35;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(232, 184, 75, 0.1);
+}
