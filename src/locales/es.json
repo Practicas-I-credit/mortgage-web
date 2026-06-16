@@ -109,5 +109,80 @@
     "rights": "© 2026 MortgageInSpain",
     "privacy": "Política de Privacidad",
     "info": "Autorizado por el Banco de España · D727 · Paseo de la Infanta Isabel 27, Madrid"
+  },
+  "services": {
+    "tag": "Nuestros servicios",
+    "heroTitle": "Soluciones hipotecarias para cada situación",
+    "heroSubtitle": "Desde tu primera vivienda en España hasta refinanciar una hipoteca existente — tenemos una solución adaptada a tus necesidades.",
+    "credit": "Madrid, España",
+    "gridTag": "Lo que ofrecemos",
+    "gridTitle": "Soluciones hipotecarias para cada necesidad",
+    "gridSubtitle": "Sea cual sea tu situación, tenemos una solución a medida respaldada por más de 45 bancos colaboradores.",
+    "loans": {
+      "title": "Préstamos hipotecarios",
+      "text": "Consigue las mejores condiciones para tu vivienda habitual, segunda residencia o propiedad de inversión en España. Negociamos con 45+ bancos para maximizar tu ahorro."
+    },
+    "switching": {
+      "title": "Cambio de hipoteca y subrogación",
+      "text": "¿Ya tienes una hipoteca en España? Te ayudamos a cambiar a mejores condiciones, reduciendo tu cuota mensual y carga financiera."
+    },
+    "personal": {
+      "title": "Préstamos personales",
+      "text": "Soluciones de financiación rápidas, profesionales y a medida para tus necesidades específicas — reforma, mobiliario u otros gastos."
+    },
+    "consolidation": {
+      "title": "Reunificación de deudas",
+      "text": "Combina varias deudas en una sola cuota manejable con mejores condiciones — encontramos la solución que mejor se adapta a tu situación."
+    },
+    "whyTag": "Por qué elegirnos",
+    "whyTitle": "Trabajamos a tu favor",
+    "why1": {
+      "title": "Servicio premium y personalizado",
+      "text": "Asesores especializados con amplia experiencia en el mercado hipotecario español."
+    },
+    "why2": {
+      "title": "Respuesta rápida, éxito garantizado",
+      "text": "Comunicación y respuestas rápidas — sin esperar semanas para tener noticias."
+    },
+    "why3": {
+      "title": "Gestionamos todo el papeleo",
+      "text": "Desde el estudio inicial gratuito hasta la firma final — nos encargamos de cada paso."
+    },
+    "why4": {
+      "title": "Acceso a más de 45 bancos",
+      "text": "Tenemos acuerdos con la red de bancos más grande de España para garantizarte la mejor hipoteca."
+    }
+  },
+  "faq": {
+    "tag": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes",
+    "q1": {
+      "q": "¿Puedo conseguir una hipoteca en España si vivo en Estados Unidos?",
+      "a": "Sí. Trabajamos con residentes en EEUU que quieren comprar una propiedad en España sin vivir aquí. Gestionamos todo el proceso a distancia — solo necesitas viajar a España para la firma final ante notario."
+    },
+    "q2": {
+      "q": "Ya vivo en España como expatriado — ¿también pueden ayudarme?",
+      "a": "Por supuesto. Tanto si eres residente en EEUU desde el extranjero como si ya vives en España, ofrecemos el mismo servicio completo: encontrar la mejor hipoteca, gestionar todo el papeleo y acompañarte en cada paso."
+    },
+    "q3": {
+      "q": "¿Cuáles son los requisitos básicos para conseguir una hipoteca en España?",
+      "a": "Debes ser mayor de edad, tener un documento de identidad válido, demostrar ingresos o empleo estable, no destinar más del 35-40% de tus ingresos al pago de deudas, y no tener impagos o registros de morosidad."
+    },
+    "q4": {
+      "q": "¿Cuánto puedo financiar siendo no residente?",
+      "a": "Los bancos españoles suelen financiar hasta el 70-80% del valor de la propiedad para no residentes. Necesitarás cubrir el 20-30% restante como entrada, más alrededor de un 10% adicional para impuestos y gastos de cierre."
+    },
+    "q5": {
+      "q": "¿Cuánto dura el proceso?",
+      "a": "Podemos darte una evaluación de viabilidad en 15-20 minutos desde tu primera llamada. A partir de ahí, el proceso completo suele tardar entre 4 y 8 semanas según el banco y la documentación."
+    },
+    "q6": {
+      "q": "¿Necesito viajar a España para firmar?",
+      "a": "Sí. La firma final ante notario requiere tu presencia física en España. Sin embargo, todos los pasos previos — documentación, aprobación, negociación — se gestionan a distancia, así que solo necesitas hacer un viaje."
+    },
+    "q7": {
+      "q": "¿La consulta inicial es realmente gratuita?",
+      "a": "Sí, totalmente gratuita y sin compromiso. Evaluamos tu situación, te decimos qué es posible, y solo avanzamos si decides continuar."
+    }
   }
 }

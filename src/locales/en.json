@@ -109,5 +109,80 @@
     "rights": "© 2026 MortgageInSpain",
     "privacy": "Privacy Policy",
     "info": "Licensed by Bank of Spain · D727 · Paseo de la Infanta Isabel 27, Madrid"
+  },
+  "services": {
+    "tag": "Our services",
+    "heroTitle": "Mortgage solutions for every situation",
+    "heroSubtitle": "From your first home in Spain to refinancing an existing mortgage — we have a solution tailored to your needs.",
+    "credit": "Madrid, Spain",
+    "gridTag": "What we offer",
+    "gridTitle": "Mortgage solutions for every need",
+    "gridSubtitle": "Whatever your situation, we have a tailored solution backed by 45+ partner banks.",
+    "loans": {
+      "title": "Mortgage loans",
+      "text": "Get the best terms for your primary residence, holiday home, or investment property in Spain. We negotiate with 45+ banks to maximize your savings."
+    },
+    "switching": {
+      "title": "Mortgage switching & subrogation",
+      "text": "Already have a mortgage in Spain? We help you switch to better terms, reducing your monthly payment and overall financial burden."
+    },
+    "personal": {
+      "title": "Personal loans",
+      "text": "Tailored, fast and professional financing solutions for your specific needs — whether for renovation, furnishing, or other expenses."
+    },
+    "consolidation": {
+      "title": "Debt consolidation",
+      "text": "Combine multiple debts into a single, manageable payment with better terms — we find the solution that fits your situation best."
+    },
+    "whyTag": "Why choose us",
+    "whyTitle": "Everything works in your favor",
+    "why1": {
+      "title": "Premium, personalized service",
+      "text": "Specialized advisors with extensive experience in the Spanish mortgage market."
+    },
+    "why2": {
+      "title": "Fast response, guaranteed success",
+      "text": "Quick communication and answers — no waiting weeks to hear back."
+    },
+    "why3": {
+      "title": "We handle all the paperwork",
+      "text": "From the free initial assessment to the final signing — every step managed for you."
+    },
+    "why4": {
+      "title": "Access to 45+ banks",
+      "text": "We have agreements with the largest network of banks in Spain to guarantee you the best mortgage."
+    }
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Frequently asked questions",
+    "q1": {
+      "q": "Can I get a mortgage in Spain if I live in the United States?",
+      "a": "Yes. We work with US residents who want to buy property in Spain without living here. We handle the entire process remotely — you only need to travel to Spain for the final signing at the notary."
+    },
+    "q2": {
+      "q": "I'm already living in Spain as an expat — can you help me too?",
+      "a": "Absolutely. Whether you're a US resident abroad or already living in Spain, we offer the same full service: finding the best mortgage, handling all paperwork, and accompanying you through every step."
+    },
+    "q3": {
+      "q": "What are the basic requirements to get a mortgage in Spain?",
+      "a": "You must be of legal age, have a valid ID, demonstrate stable income or employment, have less than 35-40% of your income committed to debt repayment, and have no outstanding defaults or delinquency records."
+    },
+    "q4": {
+      "q": "How much can I borrow as a non-resident?",
+      "a": "Spanish banks typically finance up to 70-80% of the property value for non-residents. You'll need to cover the remaining 20-30% as a down payment, plus around 10% extra for taxes and closing costs."
+    },
+    "q5": {
+      "q": "How long does the process take?",
+      "a": "We can give you a viability assessment within 15-20 minutes of your first call. From there, the full process typically takes 4-8 weeks depending on the bank and documentation."
+    },
+    "q6": {
+      "q": "Do I need to travel to Spain to sign?",
+      "a": "Yes. The final signing at the notary requires your physical presence in Spain. However, all prior steps — documentation, approval, negotiation — are handled remotely so you only need to make one trip."
+    },
+    "q7": {
+      "q": "Is the initial consultation really free?",
+      "a": "Yes, completely free and with no obligation. We assess your situation, tell you what's possible, and only move forward if you decide to proceed."
+    }
   }
 }

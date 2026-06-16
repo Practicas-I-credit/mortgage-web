@@ -1,75 +1,80 @@
+import { useTranslation } from 'react-i18next'
 import FAQ from '../components/FAQ'
 
 export default function Services() {
+  const { t } = useTranslation()
+
   return (
     <main>
 
       {/* HERO */}
       <section id="services-hero">
         <div id="services-hero-content">
-          <p className="section-tag-light">Our services</p>
-          <h1>Mortgage solutions for every situation</h1>
-          <p>From your first home in Spain to refinancing an existing mortgage — we have a solution tailored to your needs.</p>
+          <p className="section-tag-light">{t('services.tag')}</p>
+          <h1>{t('services.heroTitle')}</h1>
+          <p>{t('services.heroSubtitle')}</p>
         </div>
-        <span className="page-hero-credit">Madrid, Spain</span>
+        <span className="page-hero-credit">{t('services.credit')}</span>
       </section>
 
       {/* SERVICES GRID */}
       <section id="services-grid-section">
-        <p className="section-tag">What we offer</p>
-        <h2>Mortgage solutions for every need</h2>
-        <p className="section-sub">Whatever your situation, we have a tailored solution backed by 45+ partner banks.</p>
+        <p className="section-tag">{t('services.gridTag')}</p>
+        <h2>{t('services.gridTitle')}</h2>
+        <p className="section-sub">{t('services.gridSubtitle')}</p>
 
         <div id="services-grid">
           <div className="service-card">
             <div className="service-icon">🏠</div>
-            <h3>Mortgage loans</h3>
-            <p>Get the best terms for your primary residence, holiday home, or investment property in Spain. We negotiate with 45+ banks to maximize your savings.</p>
+            <h3>{t('services.loans.title')}</h3>
+            <p>{t('services.loans.text')}</p>
           </div>
           <div className="service-card">
             <div className="service-icon">🔄</div>
-            <h3>Mortgage switching & subrogation</h3>
-            <p>Already have a mortgage in Spain? We help you switch to better terms, reducing your monthly payment and overall financial burden.</p>
+            <h3>{t('services.switching.title')}</h3>
+            <p>{t('services.switching.text')}</p>
           </div>
           <div className="service-card">
             <div className="service-icon">💼</div>
-            <h3>Personal loans</h3>
-            <p>Tailored, fast and professional financing solutions for your specific needs — whether for renovation, furnishing, or other expenses.</p>
+            <h3>{t('services.personal.title')}</h3>
+            <p>{t('services.personal.text')}</p>
           </div>
           <div className="service-card">
             <div className="service-icon">📊</div>
-            <h3>Debt consolidation</h3>
-            <p>Combine multiple debts into a single, manageable payment with better terms — we find the solution that fits your situation best.</p>
+            <h3>{t('services.consolidation.title')}</h3>
+            <p>{t('services.consolidation.text')}</p>
           </div>
         </div>
       </section>
+
       {/* WHY CHOOSE US */}
       <section id="why-us">
-        <p className="section-tag">Why choose us</p>
-        <h2>Everything works in your favor</h2>
+        <p className="section-tag">{t('services.whyTag')}</p>
+        <h2>{t('services.whyTitle')}</h2>
         <div id="why-grid">
           <div className="why-card">
             <div className="why-icon-circle">⭐</div>
-            <h3>Premium, personalized service</h3>
-            <p>Specialized advisors with extensive experience in the Spanish mortgage market.</p>
+            <h3>{t('services.why1.title')}</h3>
+            <p>{t('services.why1.text')}</p>
           </div>
           <div className="why-card">
             <div className="why-icon-circle">⚡</div>
-            <h3>Fast response, guaranteed success</h3>
-            <p>Quick communication and answers — no waiting weeks to hear back.</p>
+            <h3>{t('services.why2.title')}</h3>
+            <p>{t('services.why2.text')}</p>
           </div>
           <div className="why-card">
             <div className="why-icon-circle">📄</div>
-            <h3>We handle all the paperwork</h3>
-            <p>From the free initial assessment to the final signing — every step managed for you.</p>
+            <h3>{t('services.why3.title')}</h3>
+            <p>{t('services.why3.text')}</p>
           </div>
           <div className="why-card">
             <div className="why-icon-circle">🤝</div>
-            <h3>Access to 45+ banks</h3>
-            <p>We have agreements with the largest network of banks in Spain to guarantee you the best mortgage.</p>
+            <h3>{t('services.why4.title')}</h3>
+            <p>{t('services.why4.text')}</p>
           </div>
         </div>
-      </section> 
+      </section>
+
       <FAQ />
 
     </main>
