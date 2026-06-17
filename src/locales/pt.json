@@ -109,5 +109,189 @@
         "rights": "© 2026 MortgageInSpain",
         "privacy": "Política de Privacidade",
         "info": "Autorizado pelo Banco de Espanha · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    },
+    "services": {
+        "tag": "Os nossos serviços",
+        "heroTitle": "Soluções de hipoteca para cada situação",
+        "heroSubtitle": "Desde a sua primeira casa na Espanha até ao refinanciamento de uma hipoteca existente — temos uma solução adaptada às suas necessidades.",
+        "credit": "Madrid, Espanha",
+        "gridTag": "O que oferecemos",
+        "gridTitle": "Soluções de hipoteca para cada necessidade",
+        "gridSubtitle": "Seja qual for a sua situação, temos uma solução à medida apoiada por mais de 45 bancos parceiros.",
+        "loans": {
+            "title": "Empréstimos hipotecários",
+            "text": "Obtenha as melhores condições para a sua residência principal, casa de férias ou imóvel de investimento na Espanha. Negociamos com mais de 45 bancos para maximizar a sua poupança."
+        },
+        "switching": {
+            "title": "Mudança de hipoteca e subrogação",
+            "text": "Já tem uma hipoteca na Espanha? Ajudamo-lo a mudar para melhores condições, reduzindo a sua prestação mensal e encargo financeiro."
+        },
+        "personal": {
+            "title": "Empréstimos pessoais",
+            "text": "Soluções de financiamento rápidas, profissionais e à medida para as suas necessidades específicas — renovação, mobiliário ou outras despesas."
+        },
+        "consolidation": {
+            "title": "Consolidação de dívidas",
+            "text": "Combine várias dívidas numa única prestação gerível com melhores condições — encontramos a solução que melhor se adapta à sua situação."
+        },
+        "whyTag": "Porquê escolher-nos",
+        "whyTitle": "Trabalhamos a seu favor",
+        "why1": {
+            "title": "Serviço premium e personalizado",
+            "text": "Consultores especializados com vasta experiência no mercado hipotecário espanhol."
+        },
+        "why2": {
+            "title": "Resposta rápida, sucesso garantido",
+            "text": "Comunicação e respostas rápidas — sem esperar semanas."
+        },
+        "why3": {
+            "title": "Tratamos de toda a documentação",
+            "text": "Desde a avaliação inicial gratuita até à assinatura final — cada etapa gerida por nós."
+        },
+        "why4": {
+            "title": "Acesso a mais de 45 bancos",
+            "text": "Temos acordos com a maior rede bancária da Espanha para lhe garantir a melhor hipoteca."
+        }
+    },
+    "faq": {
+        "tag": "Perguntas frequentes",
+        "title": "Perguntas frequentes",
+        "q1": {
+            "q": "Posso obter uma hipoteca na Espanha se vivo nos Estados Unidos?",
+            "a": "Sim. Trabalhamos com residentes nos EUA que querem comprar uma propriedade na Espanha sem viver aqui. Tratamos de todo o processo remotamente — só precisa de viajar até à Espanha para a assinatura final no notário."
+        },
+        "q2": {
+            "q": "Já vivo na Espanha como expatriado — também me podem ajudar?",
+            "a": "Sem dúvida. Quer seja residente nos EUA no estrangeiro, quer já viva na Espanha, oferecemos o mesmo serviço completo: encontrar a melhor hipoteca, tratar de toda a documentação e acompanhá-lo em cada etapa."
+        },
+        "q3": {
+            "q": "Quais são os requisitos básicos para obter uma hipoteca na Espanha?",
+            "a": "Deve ser maior de idade, ter um documento de identificação válido, demonstrar rendimentos ou emprego estável, não destinar mais de 35-40% dos seus rendimentos ao pagamento de dívidas, e não ter incumprimentos ou registos de incumprimento."
+        },
+        "q4": {
+            "q": "Quanto posso financiar como não residente?",
+            "a": "Os bancos espanhóis normalmente financiam até 70-80% do valor do imóvel para não residentes. Terá de cobrir os 20-30% restantes como entrada, mais cerca de 10% extra para impostos e custos de fecho."
+        },
+        "q5": {
+            "q": "Quanto tempo demora o processo?",
+            "a": "Podemos dar-lhe uma avaliação de viabilidade em 15-20 minutos a partir da sua primeira chamada. A partir daí, o processo completo demora geralmente entre 4 a 8 semanas, dependendo do banco e da documentação."
+        },
+        "q6": {
+            "q": "Preciso de viajar até à Espanha para assinar?",
+            "a": "Sim. A assinatura final no notário requer a sua presença física na Espanha. No entanto, todas as etapas anteriores — documentação, aprovação, negociação — são geridas remotamente, pelo que só precisa de fazer uma viagem."
+        },
+        "q7": {
+            "q": "A consulta inicial é realmente gratuita?",
+            "a": "Sim, totalmente gratuita e sem compromisso. Avaliamos a sua situação, dizemos-lhe o que é possível, e só avançamos se decidir continuar."
+        }
+    },
+    "about": {
+        "tag": "Sobre nós",
+        "heroTitle": "Conhecemos o caminho para a casa dos seus sonhos",
+        "heroSubtitle": "Consultores especializados em hipotecas que ajudam americanos a navegar no mercado imobiliário espanhol — onde quer que viva.",
+        "credit": "Barcelona, Espanha",
+        "introTag": "Quem somos",
+        "introTitle": "Sempre adaptado às suas necessidades",
+        "introText1": "Por mais complexa que pareça a sua situação, não hesite em apresentá-la — para nós, o cliente é sempre a prioridade absoluta. Garantimos a sua total tranquilidade durante todo o processo.",
+        "introText2": "Como consultores especializados em hipotecas, ajudamos os nossos clientes a conseguir as melhores condições financeiras, gerando uma poupança significativa ao longo da vida do seu empréstimo.",
+        "statBanks": "Bancos parceiros a nível nacional",
+        "statYears": "Anos de experiência",
+        "statApproval": "Taxa de aprovação",
+        "valuesTag": "O que nos distingue",
+        "valuesTitle": "Como trabalhamos para si",
+        "value1": {
+            "title": "Cobertura nacional",
+            "text": "Trabalhamos em toda a Espanha — onde quer que esteja a propriedade dos seus sonhos."
+        },
+        "value2": {
+            "title": "Análise detalhada das necessidades",
+            "text": "Estudamos a sua situação em profundidade antes de recomendar qualquer solução."
+        },
+        "value3": {
+            "title": "Pesquisa bancária à medida",
+            "text": "Procuramos entre todos os bancos parceiros a oferta que realmente se adapta a si."
+        },
+        "value4": {
+            "title": "Acompanhamento contínuo",
+            "text": "Mantemo-lo informado e ao seu lado durante todo o processo."
+        }
+    },
+    "contact": {
+        "tag": "Contacte-nos",
+        "heroTitle1": "Vamos falar sobre a sua",
+        "heroAccent": "hipoteca na Espanha",
+        "heroSubtitle": "Conte-nos a sua situação e responderemos no prazo de 24 horas.",
+        "credit": "Málaga, Espanha",
+        "bandReply": "Resposta em 24h",
+        "bandFree": "Consulta gratuita",
+        "otherWays": "Outras formas de contacto",
+        "whatsapp": "WhatsApp — resposta imediata",
+        "hoursTitle": "Horário de atendimento",
+        "hours1": "Segunda a quinta: 9:00 – 18:00",
+        "hours2": "Sexta-feira: 9:00 – 15:00",
+        "hours3": "Sábado e domingo: fechado",
+        "hoursTz": "(hora de Madrid — CET/CEST)",
+        "addressTitle": "Visite-nos",
+        "address1": "Paseo de la Infanta Isabel, 27",
+        "address2": "1.º andar, exterior esquerdo",
+        "address3": "28014 — Madrid, Espanha",
+        "formName": "Nome completo",
+        "formNamePlaceholder": "O seu nome",
+        "formEmail": "Email",
+        "formEmailPlaceholder": "seu@email.com",
+        "formPhone": "Telefone / WhatsApp",
+        "formOptional": "(opcional)",
+        "formPhonePlaceholder": "+1 555 000 0000",
+        "formService": "Como o podemos ajudar?",
+        "formServiceSelect": "Selecione um serviço",
+        "formServiceMortgage": "Empréstimo hipotecário",
+        "formServiceSwitching": "Mudança de hipoteca / subrogação",
+        "formServicePersonal": "Empréstimo pessoal",
+        "formServiceConsolidation": "Consolidação de dívidas",
+        "formMessage": "Conte-nos a sua situação",
+        "formMessagePlaceholder": "É residente nos EUA ou já vive na Espanha? Qual é o seu orçamento? Tem algum prazo previsto?",
+        "formTerms1": "Li e aceito a",
+        "formTerms2": "Política de Privacidade",
+        "formTerms3": "",
+        "formSubmit": "Enviar pedido gratuito",
+        "formSending": "A enviar...",
+        "successTitle": "Mensagem recebida!",
+        "successText": "Responderemos no prazo de 24 horas. Obrigado por nos contactar!",
+        "errorGeneral": "Ocorreu um erro ao enviar a sua mensagem. Tente novamente ou contacte-nos diretamente.",
+        "errorName": "O nome é obrigatório",
+        "errorNameMin": "O nome deve ter pelo menos 3 caracteres",
+        "errorEmailRequired": "O email é obrigatório",
+        "errorEmailInvalid": "Introduza um email válido",
+        "errorPhone": "Introduza um número de telefone válido",
+        "errorService": "Selecione um serviço",
+        "errorMessageRequired": "Conte-nos a sua situação",
+        "errorMessageMin": "Adicione um pouco mais de detalhe (mínimo 20 caracteres)",
+        "errorTerms": "Tem de aceitar a Política de Privacidade para continuar"
+    },
+    "privacy": {
+        "title": "Política de Privacidade",
+        "lastUpdated": "Última atualização: junho de 2026",
+        "s1Title": "1. Responsável pelo tratamento",
+        "s1Text": "O responsável pelo tratamento dos seus dados pessoais é a i-credit, com sede em Paseo de la Infanta Isabel 27, 1.º andar, 28014 Madrid, Espanha. Contacto:",
+        "s2Title": "2. Dados que recolhemos",
+        "s2Text": "Através do nosso formulário de contacto, recolhemos os seguintes dados pessoais: nome completo, endereço de email, número de telefone (opcional) e a mensagem que nos envia. Não recolhemos quaisquer dados pessoais sensíveis.",
+        "s3Title": "3. Finalidade e base legal",
+        "s3Text": "Os seus dados são tratados exclusivamente para responder ao seu pedido e fornecer o serviço de aconselhamento hipotecário solicitado. A base legal do tratamento é o seu consentimento explícito, dado ao submeter o formulário de contacto e aceitar esta Política de Privacidade.",
+        "s4Title": "4. Conservação de dados",
+        "s4Text": "Os seus dados pessoais serão conservados pelo tempo necessário para resolver o seu pedido, e posteriormente pelos prazos legalmente exigidos pela legislação espanhola e da UE aplicável.",
+        "s5Title": "5. Partilha de dados",
+        "s5Text": "Os seus dados pessoais não serão vendidos, alugados ou partilhados com terceiros, exceto quando exigido por lei ou necessário para prestar o serviço solicitado (por exemplo, bancos parceiros, quando expressamente acordado).",
+        "s6Title": "6. Os seus direitos",
+        "s6Text": "Nos termos do RGPD e da lei espanhola de proteção de dados (LOPDGDD), tem o direito de acesso aos seus dados, retificação, eliminação, oposição ao tratamento e portabilidade. Para exercer estes direitos, contacte-nos em",
+        "s7Title": "7. Cookies",
+        "s7Text": "Este site não utiliza atualmente cookies de monitorização ou publicidade. Podem ser utilizados cookies de sessão básicos para garantir o correto funcionamento do site.",
+        "s8Title": "8. Contacto",
+        "s8Text": "Para quaisquer dúvidas sobre esta Política de Privacidade, contacte-nos em",
+        "s8Text2": "ou escreva-nos para Paseo de la Infanta Isabel 27, 28014 Madrid, Espanha."
+    },
+    "notFound": {
+        "title": "Página não encontrada",
+        "text": "A página que procura não existe ou foi movida.",
+        "btn": "Voltar ao início"
     }
 }
