@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { FlagES, FlagUS, FlagFR, FlagDE } from './Flags'
+import { FlagES, FlagUS, FlagFR, FlagDE, FlagIT, FlagPT } from './Flags'
 
 const languages = [
   { code: 'en', label: 'English', Flag: FlagUS },
   { code: 'es', label: 'Español', Flag: FlagES },
   { code: 'fr', label: 'Français', Flag: FlagFR },
   { code: 'de', label: 'Deutsch', Flag: FlagDE },
+  { code: 'it', label: 'Italiano', Flag: FlagIT },
+  { code: 'pt', label: 'Português', Flag: FlagPT },
 ]
 
 export default function LanguageSwitcher() {

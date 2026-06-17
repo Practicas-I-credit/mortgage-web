@@ -1,0 +1,113 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Servizi",
+        "about": "Chi siamo",
+        "cta": "Consulenza gratuita",
+        "buyersFrom": "Aiutiamo acquirenti provenienti da"
+    },
+    "header": {
+        "tagline": "Proprietà in Spagna"
+    },
+    "hero": {
+        "badge": "Autorizzato dalla Banca di Spagna · D727",
+        "title1": "Il tuo",
+        "titleAccent": "mutuo in Spagna",
+        "title2": "senza complicazioni",
+        "subtitle": "Che tu viva negli Stati Uniti o già in Spagna, ti aiutiamo a ottenere il miglior mutuo per acquistare casa qui. Consulenza esperta, oltre 45 banche partner, senza sorprese.",
+        "btnPrimary": "Richiedi un preventivo gratuito",
+        "btnSecondary": "Come funziona",
+        "note": "Residenti negli USA",
+        "note2": "Expat in Spagna",
+        "note3": "Consulenza gratuita",
+        "credit": "Costa del Sol, Spagna"
+    },
+    "calculator": {
+        "title": "Stima del mutuo",
+        "propertyValue": "Valore dell'immobile",
+        "term": "Durata (anni)",
+        "downPayment": "Anticipo (20%)",
+        "fixedRate": "Tasso fisso",
+        "monthlyPayment": "Rata mensile",
+        "years": "anni"
+    },
+    "trustBand": {
+        "approval": "Tasso di approvazione 98%",
+        "banks": "45+ banche partner",
+        "phone": "+34 910 605 055",
+        "address": "Madrid, Paseo de la Infanta Isabel 27"
+    },
+    "stats": {
+        "approvalLabel": "Tasso di approvazione del mutuo",
+        "banksLabel": "Banche partner in Spagna",
+        "yearsLabel": "Anni di esperienza"
+    },
+    "painPoints": {
+        "tag": "Difficoltà comuni",
+        "title": "Conosciamo le difficoltà che affronti",
+        "subtitle": "Acquistare una proprietà in Spagna da straniero può essere complesso. Semplifichiamo ogni passo.",
+        "distance": {
+            "title": "Vivi lontano",
+            "text": "Gestire un mutuo dagli Stati Uniti può essere impegnativo. Ci occupiamo di tutto a distanza, così non devi viaggiare fino al giorno della firma."
+        },
+        "paperwork": {
+            "title": "Burocrazia spagnola",
+            "text": "NIE, notaio, tasse, requisiti bancari — la documentazione è infinita. I nostri esperti ti guidano in ogni fase."
+        },
+        "banks": {
+            "title": "Le banche rifiutano gli stranieri",
+            "text": "Le banche spagnole sono caute con i non residenti. Abbiamo accordi esclusivi con oltre 45 banche per garantirti l'approvazione."
+        },
+        "costs": {
+            "title": "Costi nascosti",
+            "text": "Tasse, commissioni, assicurazioni — i costi si accumulano rapidamente. Ti forniamo un quadro completo e trasparente prima di qualsiasi impegno."
+        }
+    },
+    "howItWorks": {
+        "tag": "Il processo",
+        "title": "Come otteniamo il tuo mutuo",
+        "subtitle": "Semplice, trasparente e gestito completamente dall'inizio alla fine.",
+        "step1": {
+            "title": "Consulenza gratuita",
+            "text": "Raccontaci la tua situazione — dove vivi, quale immobile cerchi, il tuo budget. Valutiamo la tua idoneità senza alcun costo."
+        },
+        "step2": {
+            "title": "Troviamo la migliore offerta",
+            "text": "Negoziamo per tuo conto con oltre 45 banche spagnole e ti proponiamo le migliori condizioni in base al tuo profilo."
+        },
+        "step3": {
+            "title": "Gestiamo la documentazione",
+            "text": "NIE, documenti, moduli bancari — ci occupiamo di tutto. Tu devi solo verificare e approvare ogni fase."
+        },
+        "step4": {
+            "title": "Firma e ritira le chiavi",
+            "text": "Ti accompagniamo dal notaio per la firma finale. La tua casa in Spagna è pronta."
+        }
+    },
+    "testimonials": {
+        "tag": "Cosa dicono i nostri clienti",
+        "title": "La fiducia di chi acquista in Spagna",
+        "rafael": {
+            "text": "Il team ha gestito tutto il processo di acquisto della mia casa. Senza il loro aiuto non sarebbe stato possibile ottenere il mutuo alle condizioni di cui avevo bisogno. Davvero grato per la loro pazienza e dedizione.",
+            "location": "Madrid, Spagna"
+        },
+        "boris": {
+            "text": "Consigliatissimo. Professionisti eccellenti che ti accompagnano in tutto il processo del mutuo, trovando sempre le migliori condizioni disponibili. Efficienti, competitivi e sempre chiari in ogni fase.",
+            "location": "Madrid, Spagna"
+        },
+        "roberto": {
+            "text": "Hanno gestito tutto con grande professionalità, anche in un caso complesso. Siamo rimasti in contatto stretto durante tutto il processo e hanno sempre cercato la migliore soluzione per la mia situazione.",
+            "location": "Madrid, Spagna"
+        }
+    },
+    "ctaFinal": {
+        "title": "Pronto a fare della Spagna la tua nuova casa?",
+        "subtitle": "Richiedi oggi una consulenza gratuita e senza impegno con i nostri esperti in mutui.",
+        "whatsapp": "Chatta su WhatsApp"
+    },
+    "footer": {
+        "rights": "© 2026 MortgageInSpain",
+        "privacy": "Informativa sulla privacy",
+        "info": "Autorizzato dalla Banca di Spagna · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    }
+}

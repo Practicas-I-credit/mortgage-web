@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [enviado, setEnviado] = useState(false)
   const [enviando, setEnviando] = useState(false)
   const [errores, setErrores] = useState({})
@@ -68,6 +68,7 @@ export default function Contact() {
     setEnviando(true)
     const data = new FormData()
     Object.entries(form).forEach(([key, value]) => data.append(key, value))
+    data.append('idioma_formulario', i18n.language)
 
     const response = await fetch('https://formspree.io/f/mdavwyqd', {
       method: 'POST',
