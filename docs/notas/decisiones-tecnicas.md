@@ -6,6 +6,14 @@ Se mantuvo el mismo stack que hipotecavenezolanos por:
 - Experiencia previa adquirida en el primer proyecto
 - Facilidad de mantenimiento futuro al compartir patrones
 
+## React Router — _redirects
+Se añadió el archivo public/_redirects con /* /index.html 200 porque:
+- Netlify no sabe manejar rutas de React Router por defecto
+- Sin este archivo las rutas /services, /about, /contact daban error 404
+
+## Deploy — Netlify
+- Se eligió Netlify por los mismos motivos que hipotecavenezolanos: gratuito, compatible con React + Vite, deploy automático con cada push, HTTPS incluido.
+
 ## Internacionalización — react-i18next
 Se eligió react-i18next en lugar de duplicar páginas por idioma porque:
 - Antonio solicitó 6 idiomas (inglés, español, francés, alemán, italiano, portugués)
