@@ -7,6 +7,8 @@ export default function NavBar() {
   const [open, setOpen] = useState(false)
   const { t } = useTranslation()
 
+  const closeMenu = () => setOpen(false)
+
   return (
     <nav>
       <div id="nav-flags">
@@ -21,10 +23,10 @@ export default function NavBar() {
       </button>
 
       <div id="nav-links" className={open ? 'open' : ''}>
-        <Link to="/">{t('nav.home')}</Link>
-        <Link to="/services">{t('nav.services')}</Link>
-        <Link to="/about">{t('nav.about')}</Link>
-        <Link to="/contact" id="nav-cta">{t('nav.cta')}</Link>
+        <Link to="/" onClick={closeMenu}>{t('nav.home')}</Link>
+        <Link to="/services" onClick={closeMenu}>{t('nav.services')}</Link>
+        <Link to="/about" onClick={closeMenu}>{t('nav.about')}</Link>
+        <Link to="/contact" id="nav-cta" onClick={closeMenu}>{t('nav.cta')}</Link>
       </div>
     </nav>
   )
