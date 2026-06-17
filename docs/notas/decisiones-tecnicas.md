@@ -1,0 +1,42 @@
+# Decisiones técnicas
+
+## Stack — React 19 + Vite
+Se mantuvo el mismo stack que hipotecavenezolanos por:
+- Coherencia técnica entre ambos proyectos de i-credit
+- Experiencia previa adquirida en el primer proyecto
+- Facilidad de mantenimiento futuro al compartir patrones
+
+## Internacionalización — react-i18next
+Se eligió react-i18next en lugar de duplicar páginas por idioma porque:
+- Antonio solicitó 6 idiomas (inglés, español, francés, alemán, italiano, portugués)
+- Duplicar páginas para 6 idiomas habría sido insostenible de mantener
+- Permite añadir nuevos idiomas sin tocar componentes, solo traduciendo archivos JSON
+
+## Persistencia de idioma — i18next-browser-languagedetector
+Se añadió este plugin porque:
+- Sin él, el idioma seleccionado se perdía al recargar la página
+- Detecta automáticamente el idioma del navegador como fallback
+- Guarda la preferencia del usuario en localStorage
+
+## Identidad visual — Logo y colores propios
+Se creó un logo SVG propio (concepto diamante con check) en lugar de reutilizar el de hipotecavenezolanos porque:
+- El público objetivo es distinto (compradores americanos vs. venezolanos)
+- Permite usar el mismo logo en futuros dominios de la marca (.es, .us, .com)
+- Paleta navy + dorado transmite mayor formalidad para el mercado anglosajón
+
+## Formulario — Formspree (endpoint propio)
+Se creó un formulario nuevo en Formspree (no se reutilizó el de hipotecavenezolanos) porque:
+- Cada proyecto necesita su propio endpoint para no mezclar leads
+- Mismo motivo que hipotecavenezolanos: gratuito, sin backend propio, fácil integración
+
+## Refactorización CSS
+Se unificaron clases repetidas (icon-circle, card-simple, section-title, page-hero-title/text, trust-band) en index.css porque:
+- El archivo App.css había crecido mucho con patrones idénticos repetidos en varias páginas
+- Mejora la mantenibilidad: un cambio de estilo se aplica en un solo lugar
+- Reduce el tamaño del CSS y mejora la legibilidad del código
+
+## Imágenes — WebP
+Mismo motivo que hipotecavenezolanos: menor peso, mejor rendimiento, compatibilidad total.
+
+## Dominios (pendiente de definir)
+Antonio planea adquirir varios dominios para esta web, posiblemente con TLDs distintos según idioma (.es, .us, .com, etc.). Pendiente de definir estructura final y configuración DNS.

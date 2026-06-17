@@ -120,6 +120,10 @@
 - Ajuste del checkbox de términos en Contact para soportar estructuras gramaticales distintas según idioma (formTerms1/2/3).
 - Añadido campo idioma_formulario al envío de Formspree para dar contexto a i-credit sobre el idioma usado por el cliente.
 - Confirmado funcionamiento del formulario de contacto en producción local — los mensajes llegan correctamente a info@i-credit.es.
+- Corrección: menú móvil se cierra automáticamente al seleccionar un enlace de navegación.
+- Implementación de ScrollToTop — la página vuelve al inicio automáticamente al cambiar de ruta.
+- Corrección de responsive del header: badge decorativo de España se ocultaba parcialmente sobre el logo en pantallas pequeñas.
+- Creación de docs/decisiones-tecnicas.md documentando el porqué de las decisiones técnicas del proyecto.
 
 ### Resultado
 
@@ -127,13 +131,16 @@
 - Selector de idioma funcional con persistencia mediante localStorage.
 - CSS de mortgage-web significativamente más limpio tras la refactorización.
 - Formulario de contacto verificado y funcionando correctamente.
+- Mejoras de UX en navegación móvil.
+- Header responsive corregido para pantallas pequeñas.
+- Documentación técnica del proyecto completada.
 
 ---
 
 ## Próximos pasos
 
+- Deploy en Netlify (URL temporal mientras se define el dominio definitivo con Antonio).
 - Añadir sitemap y robots.txt cuando se defina el dominio.
-- Deploy en Netlify de i-credit cuando Antonio tenga los dominios.
 - Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us, y dominios adicionales para otros idiomas).
 - Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
 - Revisar si el selector de idiomas debería mostrar los nombres en el idioma activo o mantenerse en nombres nativos.

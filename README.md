@@ -40,8 +40,10 @@ public/images/  # imágenes y logo
 - ✅ Trust Band, Stats, Pain Points, How it works, Testimonials, CTA
 - ✅ Páginas Home, Services, About, Contact, Privacy, 404 completas
 - ✅ Formulario de contacto funcional (Formspree)
-- ✅ Sistema multiidioma con react-i18next (EN/ES) — base lista para FR/DE/IT/PT
+- ✅ Sistema multiidioma completo: inglés, español, francés, alemán, italiano, portugués
 - ✅ Botón flotante de WhatsApp
+- ✅ CSS refactorizado y optimizado
+- ✅ UX móvil corregida (menú, scroll, header responsive)
 
 
 ## Progreso
