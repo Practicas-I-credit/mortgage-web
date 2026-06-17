@@ -1,0 +1,113 @@
+{
+    "nav": {
+        "home": "Início",
+        "services": "Serviços",
+        "about": "Sobre nós",
+        "cta": "Consulta gratuita",
+        "buyersFrom": "Ajudamos compradores de"
+    },
+    "header": {
+        "tagline": "Propriedade na Espanha"
+    },
+    "hero": {
+        "badge": "Autorizado pelo Banco de Espanha · D727",
+        "title1": "A sua",
+        "titleAccent": "hipoteca na Espanha",
+        "title2": "sem complicações",
+        "subtitle": "Quer viva nos EUA ou já esteja na Espanha, ajudamo-lo a obter a melhor hipoteca para comprar a sua casa aqui. Aconselhamento especializado, mais de 45 bancos parceiros, sem surpresas.",
+        "btnPrimary": "Pedir orçamento gratuito",
+        "btnSecondary": "Como funciona",
+        "note": "Residentes nos EUA",
+        "note2": "Expatriados na Espanha",
+        "note3": "Consulta gratuita",
+        "credit": "Costa del Sol, Espanha"
+    },
+    "calculator": {
+        "title": "Estimativa de hipoteca",
+        "propertyValue": "Valor do imóvel",
+        "term": "Prazo (anos)",
+        "downPayment": "Entrada (20%)",
+        "fixedRate": "Taxa fixa",
+        "monthlyPayment": "Prestação mensal",
+        "years": "anos"
+    },
+    "trustBand": {
+        "approval": "98% de taxa de aprovação",
+        "banks": "45+ bancos parceiros",
+        "phone": "+34 910 605 055",
+        "address": "Madrid, Paseo de la Infanta Isabel 27"
+    },
+    "stats": {
+        "approvalLabel": "Taxa de aprovação de hipotecas",
+        "banksLabel": "Bancos parceiros na Espanha",
+        "yearsLabel": "Anos de experiência"
+    },
+    "painPoints": {
+        "tag": "Desafios comuns",
+        "title": "Conhecemos os desafios que enfrenta",
+        "subtitle": "Comprar uma propriedade na Espanha como estrangeiro pode ser complexo. Simplificamos cada etapa.",
+        "distance": {
+            "title": "Vive longe",
+            "text": "Gerir um processo hipotecário a partir dos EUA pode ser complicado. Tratamos de tudo remotamente para que só precise de viajar até ao dia da assinatura."
+        },
+        "paperwork": {
+            "title": "Burocracia espanhola",
+            "text": "NIE, notário, impostos, requisitos bancários — a documentação é interminável. Os nossos especialistas acompanham-no em cada etapa."
+        },
+        "banks": {
+            "title": "Os bancos rejeitam estrangeiros",
+            "text": "Os bancos espanhóis são cautelosos com não residentes. Temos acordos exclusivos com mais de 45 bancos para garantir a sua aprovação."
+        },
+        "costs": {
+            "title": "Custos ocultos",
+            "text": "Impostos, comissões, seguros — os custos acumulam-se rapidamente. Damos-lhe um resumo totalmente transparente antes de qualquer compromisso."
+        }
+    },
+    "howItWorks": {
+        "tag": "O processo",
+        "title": "Como conseguimos a sua hipoteca",
+        "subtitle": "Simples, transparente e totalmente gerido do início ao fim.",
+        "step1": {
+            "title": "Consulta gratuita",
+            "text": "Conte-nos a sua situação — onde vive, que imóvel procura, o seu orçamento. Avaliamos a sua viabilidade sem qualquer custo."
+        },
+        "step2": {
+            "title": "Encontramos a melhor oferta",
+            "text": "Negociamos em seu nome com mais de 45 bancos espanhóis e apresentamos-lhe as melhores condições para o seu perfil."
+        },
+        "step3": {
+            "title": "Tratamos da documentação",
+            "text": "NIE, documentos, formulários bancários — tratamos de tudo. Apenas precisa de rever e aprovar em cada etapa."
+        },
+        "step4": {
+            "title": "Assine e receba as chaves",
+            "text": "Acompanhamo-lo ao notário para a assinatura final. A sua casa na Espanha está pronta."
+        }
+    },
+    "testimonials": {
+        "tag": "O que dizem os nossos clientes",
+        "title": "A confiança de quem compra na Espanha",
+        "rafael": {
+            "text": "A equipa geriu todo o processo de compra da minha casa. Sem a ajuda deles não teria sido possível conseguir a hipoteca nas condições que precisava. Muito agradecido pela paciência e dedicação.",
+            "location": "Madrid, Espanha"
+        },
+        "boris": {
+            "text": "100% recomendado. Excelentes profissionais que o acompanham em todo o processo hipotecário, encontrando sempre as melhores condições disponíveis. Eficientes, competitivos e sempre claros em cada etapa.",
+            "location": "Madrid, Espanha"
+        },
+        "roberto": {
+            "text": "Trataram de tudo com grande profissionalismo, mesmo num caso complexo. Mantivemos contacto próximo durante todo o processo e procuraram sempre a melhor solução para a minha situação.",
+            "location": "Madrid, Espanha"
+        }
+    },
+    "ctaFinal": {
+        "title": "Pronto para fazer da Espanha o seu novo lar?",
+        "subtitle": "Peça hoje uma consulta gratuita e sem compromisso com os nossos especialistas em hipotecas.",
+        "whatsapp": "Conversar no WhatsApp"
+    },
+    "footer": {
+        "rights": "© 2026 MortgageInSpain",
+        "privacy": "Política de Privacidade",
+        "info": "Autorizado pelo Banco de Espanha · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    }
+}
