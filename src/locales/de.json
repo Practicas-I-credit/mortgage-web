@@ -1,0 +1,113 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "services": "Leistungen",
+        "about": "Über uns",
+        "cta": "Kostenlose Beratung",
+        "buyersFrom": "Wir helfen Käufern aus"
+    },
+    "header": {
+        "tagline": "Immobilie in Spanien"
+    },
+    "hero": {
+        "badge": "Zugelassen von der Banco de España · D727",
+        "title1": "Ihre",
+        "titleAccent": "Hypothek in Spanien",
+        "title2": "ohne Komplikationen",
+        "subtitle": "Egal ob Sie in den USA leben oder bereits in Spanien wohnen — wir helfen Ihnen, die beste Hypothek für Ihr Zuhause hier zu finden. Fachkundige Beratung, mehr als 45 Partnerbanken, ohne Überraschungen.",
+        "btnPrimary": "Kostenloses Angebot anfordern",
+        "btnSecondary": "So funktioniert es",
+        "note": "US-Bürger",
+        "note2": "Auswanderer in Spanien",
+        "note3": "Kostenlose Beratung",
+        "credit": "Costa del Sol, Spanien"
+    },
+    "calculator": {
+        "title": "Hypothekenschätzung",
+        "propertyValue": "Immobilienwert",
+        "term": "Laufzeit (Jahre)",
+        "downPayment": "Anzahlung (20%)",
+        "fixedRate": "Fester Zinssatz",
+        "monthlyPayment": "Monatliche Rate",
+        "years": "Jahre"
+    },
+    "trustBand": {
+        "approval": "98% Genehmigungsrate",
+        "banks": "45+ Partnerbanken",
+        "phone": "+34 910 605 055",
+        "address": "Madrid, Paseo de la Infanta Isabel 27"
+    },
+    "stats": {
+        "approvalLabel": "Hypothekengenehmigungsrate",
+        "banksLabel": "Partnerbanken in Spanien",
+        "yearsLabel": "Jahre Erfahrung"
+    },
+    "painPoints": {
+        "tag": "Häufige Herausforderungen",
+        "title": "Wir verstehen die Herausforderungen, denen Sie gegenüberstehen",
+        "subtitle": "Eine Immobilie als Ausländer in Spanien zu kaufen, kann komplex sein. Wir vereinfachen jeden Schritt.",
+        "distance": {
+            "title": "Sie leben weit weg",
+            "text": "Eine Hypothek aus den USA zu organisieren, kann überwältigend sein. Wir erledigen alles aus der Ferne, damit Sie erst zur Unterzeichnung nach Spanien reisen müssen."
+        },
+        "paperwork": {
+            "title": "Spanische Bürokratie",
+            "text": "NIE, Notar, Steuern, Bankanforderungen — der Papierkram ist endlos. Unsere Experten begleiten Sie bei jedem Schritt."
+        },
+        "banks": {
+            "title": "Banken lehnen Ausländer ab",
+            "text": "Spanische Banken sind bei Nichtansässigen vorsichtig. Wir haben exklusive Vereinbarungen mit mehr als 45 Banken, um Ihre Genehmigung zu sichern."
+        },
+        "costs": {
+            "title": "Versteckte Kosten",
+            "text": "Steuern, Gebühren, Versicherungen — die Kosten summieren sich schnell. Wir geben Ihnen eine vollständig transparente Aufschlüsselung, bevor Sie sich verpflichten."
+        }
+    },
+    "howItWorks": {
+        "tag": "Der Ablauf",
+        "title": "So bekommen Sie Ihre Hypothek",
+        "subtitle": "Einfach, transparent und vollständig betreut von Anfang bis Ende.",
+        "step1": {
+            "title": "Kostenlose Beratung",
+            "text": "Erzählen Sie uns von Ihrer Situation — wo Sie leben, welche Immobilie Sie suchen, Ihr Budget. Wir prüfen Ihre Möglichkeiten kostenlos."
+        },
+        "step2": {
+            "title": "Wir finden das beste Angebot",
+            "text": "Wir verhandeln im Namen für Sie mit mehr als 45 spanischen Banken und bieten Ihnen die besten Konditionen für Ihr Profil."
+        },
+        "step3": {
+            "title": "Wir erledigen den Papierkram",
+            "text": "NIE, Unterlagen, Bankformulare — wir übernehmen alles. Sie müssen nur jeden Schritt prüfen und bestätigen."
+        },
+        "step4": {
+            "title": "Unterschreiben und Schlüssel erhalten",
+            "text": "Wir begleiten Sie zum Notar für die endgültige Unterzeichnung. Ihr Zuhause in Spanien ist bereit."
+        }
+    },
+    "testimonials": {
+        "tag": "Was unsere Kunden sagen",
+        "title": "Vertrauen von Käufern in Spanien",
+        "rafael": {
+            "text": "Das Team hat den gesamten Kaufprozess meiner Immobilie übernommen. Ohne ihre Hilfe wäre es nicht möglich gewesen, die Hypothek zu den benötigten Konditionen zu bekommen. Sehr dankbar für ihre Geduld und ihr Engagement.",
+            "location": "Madrid, Spanien"
+        },
+        "boris": {
+            "text": "100% empfehlenswert. Ausgezeichnete Fachleute, die Sie durch den gesamten Hypothekenprozess begleiten und stets die besten verfügbaren Konditionen finden. Effizient, wettbewerbsfähig und bei jedem Schritt transparent.",
+            "location": "Madrid, Spanien"
+        },
+        "roberto": {
+            "text": "Sie haben alles mit großer Professionalität gehandhabt, auch in einem komplexen Fall. Wir blieben während des gesamten Prozesses in engem Kontakt, und sie haben immer die beste Lösung für meine Situation gesucht.",
+            "location": "Madrid, Spanien"
+        }
+    },
+    "ctaFinal": {
+        "title": "Bereit, Spanien zu Ihrem Zuhause zu machen?",
+        "subtitle": "Vereinbaren Sie noch heute eine kostenlose und unverbindliche Beratung mit unseren Hypothekenexperten.",
+        "whatsapp": "Per WhatsApp chatten"
+    },
+    "footer": {
+        "rights": "© 2026 MortgageInSpain",
+        "privacy": "Datenschutzrichtlinie",
+        "info": "Zugelassen von der Banco de España · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    }
+}
