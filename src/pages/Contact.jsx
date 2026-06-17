@@ -234,6 +234,7 @@ export default function Contact() {
                   />
                   {t('contact.formTerms1')}{' '}
                   <a href="/privacy" target="_blank" rel="noopener noreferrer">{t('contact.formTerms2')}</a>
+                  {' '}{t('contact.formTerms3')}
                 </label>
                 {errores.terms && <span className="error-msg">{errores.terms}</span>}
               </div>

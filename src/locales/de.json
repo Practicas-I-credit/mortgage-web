@@ -109,5 +109,189 @@
         "rights": "© 2026 MortgageInSpain",
         "privacy": "Datenschutzrichtlinie",
         "info": "Zugelassen von der Banco de España · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    },
+    "services": {
+        "tag": "Unsere Leistungen",
+        "heroTitle": "Hypothekenlösungen für jede Situation",
+        "heroSubtitle": "Von Ihrem ersten Eigenheim in Spanien bis zur Umschuldung einer bestehenden Hypothek — wir haben eine maßgeschneiderte Lösung für Ihre Bedürfnisse.",
+        "credit": "Madrid, Spanien",
+        "gridTag": "Was wir anbieten",
+        "gridTitle": "Hypothekenlösungen für jeden Bedarf",
+        "gridSubtitle": "Egal in welcher Situation Sie sich befinden — wir haben eine maßgeschneiderte Lösung, unterstützt von mehr als 45 Partnerbanken.",
+        "loans": {
+            "title": "Hypothekendarlehen",
+            "text": "Sichern Sie sich die besten Konditionen für Ihren Hauptwohnsitz, Ihr Ferienhaus oder eine Investitionsimmobilie in Spanien. Wir verhandeln mit mehr als 45 Banken, um Ihre Ersparnisse zu maximieren."
+        },
+        "switching": {
+            "title": "Hypothekenwechsel und Subrogation",
+            "text": "Sie haben bereits eine Hypothek in Spanien? Wir helfen Ihnen, zu besseren Konditionen zu wechseln und so Ihre monatliche Rate und finanzielle Belastung zu reduzieren."
+        },
+        "personal": {
+            "title": "Privatkredite",
+            "text": "Maßgeschneiderte, schnelle und professionelle Finanzierungslösungen für Ihre individuellen Bedürfnisse — ob Renovierung, Einrichtung oder andere Ausgaben."
+        },
+        "consolidation": {
+            "title": "Umschuldung",
+            "text": "Fassen Sie mehrere Schulden in einer einzigen, überschaubaren Rate mit besseren Konditionen zusammen — wir finden die Lösung, die am besten zu Ihrer Situation passt."
+        },
+        "whyTag": "Warum uns wählen",
+        "whyTitle": "Wir arbeiten zu Ihrem Vorteil",
+        "why1": {
+            "title": "Premium, persönlicher Service",
+            "text": "Spezialisierte Berater mit umfassender Erfahrung im spanischen Hypothekenmarkt."
+        },
+        "why2": {
+            "title": "Schnelle Antwort, garantierter Erfolg",
+            "text": "Schnelle Kommunikation und Antworten — kein wochenlanges Warten."
+        },
+        "why3": {
+            "title": "Wir übernehmen den gesamten Papierkram",
+            "text": "Von der kostenlosen Erstbewertung bis zur endgültigen Unterzeichnung — jeder Schritt wird für Sie übernommen."
+        },
+        "why4": {
+            "title": "Zugang zu mehr als 45 Banken",
+            "text": "Wir haben Vereinbarungen mit dem größten Bankennetzwerk Spaniens, um Ihnen die beste Hypothek zu garantieren."
+        }
+    },
+    "faq": {
+        "tag": "Häufig gestellte Fragen",
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+            "q": "Kann ich eine Hypothek in Spanien bekommen, wenn ich in den USA lebe?",
+            "a": "Ja. Wir arbeiten mit US-Bürgern, die eine Immobilie in Spanien kaufen möchten, ohne hier zu leben. Wir übernehmen den gesamten Prozess aus der Ferne — Sie müssen nur für die endgültige Unterzeichnung beim Notar nach Spanien reisen."
+        },
+        "q2": {
+            "q": "Ich lebe bereits als Auswanderer in Spanien — können Sie mir auch helfen?",
+            "a": "Selbstverständlich. Egal ob Sie US-Bürger im Ausland sind oder bereits in Spanien leben, wir bieten denselben umfassenden Service: die beste Hypothek finden, den gesamten Papierkram erledigen und Sie bei jedem Schritt begleiten."
+        },
+        "q3": {
+            "q": "Was sind die grundlegenden Anforderungen für eine Hypothek in Spanien?",
+            "a": "Sie müssen volljährig sein, einen gültigen Ausweis besitzen, ein stabiles Einkommen oder eine feste Anstellung nachweisen, dürfen nicht mehr als 35-40% Ihres Einkommens für Schuldenrückzahlung aufwenden und keine offenen Zahlungsausfälle oder Bonitätsprobleme haben."
+        },
+        "q4": {
+            "q": "Wie viel kann ich als Nichtansässiger leihen?",
+            "a": "Spanische Banken finanzieren in der Regel bis zu 70-80% des Immobilienwerts für Nichtansässige. Die verbleibenden 20-30% müssen Sie als Anzahlung leisten, zuzüglich etwa 10% für Steuern und Abschlusskosten."
+        },
+        "q5": {
+            "q": "Wie lange dauert der Prozess?",
+            "a": "Wir können Ihnen bereits innerhalb von 15-20 Minuten beim ersten Anruf eine Einschätzung Ihrer Möglichkeiten geben. Der gesamte Prozess dauert je nach Bank und Unterlagen in der Regel 4 bis 8 Wochen."
+        },
+        "q6": {
+            "q": "Muss ich zur Unterzeichnung nach Spanien reisen?",
+            "a": "Ja. Die endgültige Unterzeichnung beim Notar erfordert Ihre persönliche Anwesenheit in Spanien. Alle vorherigen Schritte — Unterlagen, Genehmigung, Verhandlung — werden jedoch aus der Ferne abgewickelt, sodass Sie nur eine Reise benötigen."
+        },
+        "q7": {
+            "q": "Ist die Erstberatung wirklich kostenlos?",
+            "a": "Ja, vollständig kostenlos und unverbindlich. Wir prüfen Ihre Situation, teilen Ihnen mit, was möglich ist, und gehen nur weiter, wenn Sie sich dafür entscheiden."
+        }
+    },
+    "about": {
+        "tag": "Über uns",
+        "heroTitle": "Wir kennen den Weg zu Ihrem Traumhaus",
+        "heroSubtitle": "Spezialisierte Hypothekenberater, die Amerikanern helfen, sich auf dem spanischen Immobilienmarkt zurechtzufinden — egal wo Sie wohnen.",
+        "credit": "Barcelona, Spanien",
+        "introTag": "Wer wir sind",
+        "introTitle": "Immer auf Ihre Bedürfnisse zugeschnitten",
+        "introText1": "Egal wie komplex Ihre Situation erscheint, scheuen Sie sich nicht, sie uns vorzustellen — für uns hat der Kunde stets oberste Priorität. Wir sorgen während des gesamten Prozesses für Ihre vollständige Sicherheit.",
+        "introText2": "Als spezialisierte Hypothekenberater helfen wir unseren Kunden, die besten finanziellen Konditionen zu sichern und so erhebliche Einsparungen über die Laufzeit ihres Darlehens zu erzielen.",
+        "statBanks": "Partnerbanken landesweit",
+        "statYears": "Jahre Erfahrung",
+        "statApproval": "Genehmigungsrate",
+        "valuesTag": "Was uns auszeichnet",
+        "valuesTitle": "Wie wir für Sie arbeiten",
+        "value1": {
+            "title": "Landesweite Abdeckung",
+            "text": "Wir sind in ganz Spanien tätig — egal wo sich Ihre Traumimmobilie befindet."
+        },
+        "value2": {
+            "title": "Detaillierte Bedarfsanalyse",
+            "text": "Wir untersuchen Ihre Situation gründlich, bevor wir eine Lösung empfehlen."
+        },
+        "value3": {
+            "title": "Maßgeschneiderte Bankauswahl",
+            "text": "Wir durchsuchen alle Partnerbanken nach dem Angebot, das wirklich zu Ihnen passt."
+        },
+        "value4": {
+            "title": "Kontinuierliche Unterstützung",
+            "text": "Wir halten Sie während des gesamten Prozesses informiert und stehen Ihnen zur Seite."
+        }
+    },
+    "contact": {
+        "tag": "Kontaktieren Sie uns",
+        "heroTitle1": "Sprechen wir über Ihre",
+        "heroAccent": "Hypothek in Spanien",
+        "heroSubtitle": "Erzählen Sie uns von Ihrer Situation und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+        "credit": "Málaga, Spanien",
+        "bandReply": "Antwort innerhalb von 24h",
+        "bandFree": "Kostenlose Beratung",
+        "otherWays": "Weitere Kontaktmöglichkeiten",
+        "whatsapp": "WhatsApp — sofortige Antwort",
+        "hoursTitle": "Öffnungszeiten",
+        "hours1": "Montag bis Donnerstag: 9:00 – 18:00 Uhr",
+        "hours2": "Freitag: 9:00 – 15:00 Uhr",
+        "hours3": "Samstag und Sonntag: geschlossen",
+        "hoursTz": "(Madrider Zeit — CET/CEST)",
+        "addressTitle": "Besuchen Sie uns",
+        "address1": "Paseo de la Infanta Isabel, 27",
+        "address2": "1. Stock, außen links",
+        "address3": "28014 — Madrid, Spanien",
+        "formName": "Vollständiger Name",
+        "formNamePlaceholder": "Ihr Name",
+        "formEmail": "E-Mail",
+        "formEmailPlaceholder": "sie@email.com",
+        "formPhone": "Telefon / WhatsApp",
+        "formOptional": "(optional)",
+        "formPhonePlaceholder": "+1 555 000 0000",
+        "formService": "Wie können wir Ihnen helfen?",
+        "formServiceSelect": "Wählen Sie eine Leistung",
+        "formServiceMortgage": "Hypothekendarlehen",
+        "formServiceSwitching": "Hypothekenwechsel / Subrogation",
+        "formServicePersonal": "Privatkredit",
+        "formServiceConsolidation": "Umschuldung",
+        "formMessage": "Erzählen Sie uns von Ihrer Situation",
+        "formMessagePlaceholder": "Sind Sie US-Bürger oder leben Sie bereits in Spanien? Wie hoch ist Ihr Budget? Haben Sie einen Zeitrahmen?",
+        "formTerms1": "Ich habe die",
+        "formTerms2": "Datenschutzrichtlinie",
+        "formTerms3": "gelesen und stimme ihr zu.",
+        "formSubmit": "Kostenlose Anfrage senden",
+        "formSending": "Wird gesendet...",
+        "successTitle": "Nachricht erhalten!",
+        "successText": "Wir melden uns innerhalb von 24 Stunden bei Ihnen. Vielen Dank für Ihre Anfrage!",
+        "errorGeneral": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+        "errorName": "Der Name ist erforderlich",
+        "errorNameMin": "Der Name muss mindestens 3 Zeichen haben",
+        "errorEmailRequired": "Die E-Mail ist erforderlich",
+        "errorEmailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein",
+        "errorPhone": "Geben Sie eine gültige Telefonnummer ein",
+        "errorService": "Wählen Sie eine Leistung",
+        "errorMessageRequired": "Erzählen Sie uns von Ihrer Situation",
+        "errorMessageMin": "Bitte fügen Sie etwas mehr Details hinzu (mindestens 20 Zeichen)",
+        "errorTerms": "Sie müssen die Datenschutzrichtlinie akzeptieren, um fortzufahren"
+    },
+    "privacy": {
+        "title": "Datenschutzrichtlinie",
+        "lastUpdated": "Letzte Aktualisierung: Juni 2026",
+        "s1Title": "1. Verantwortlicher für die Datenverarbeitung",
+        "s1Text": "Verantwortlicher für die Verarbeitung Ihrer personenbezogenen Daten ist i-credit, mit Sitz in Paseo de la Infanta Isabel 27, 1. Stock, 28014 Madrid, Spanien. Kontakt:",
+        "s2Title": "2. Daten, die wir erfassen",
+        "s2Text": "Über unser Kontaktformular erfassen wir die folgenden personenbezogenen Daten: vollständigen Namen, E-Mail-Adresse, Telefonnummer (optional) und die von Ihnen gesendete Nachricht. Wir erfassen keine sensiblen personenbezogenen Daten.",
+        "s3Title": "3. Zweck und Rechtsgrundlage",
+        "s3Text": "Ihre Daten werden ausschließlich zur Beantwortung Ihrer Anfrage und zur Bereitstellung der von Ihnen angeforderten Hypothekenberatung verarbeitet. Die Rechtsgrundlage der Verarbeitung ist Ihre ausdrückliche Einwilligung, die Sie durch das Absenden des Kontaktformulars und die Annahme dieser Datenschutzrichtlinie erteilen.",
+        "s4Title": "4. Datenspeicherung",
+        "s4Text": "Ihre personenbezogenen Daten werden so lange aufbewahrt, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist, und danach für die gesetzlich vorgeschriebenen Fristen gemäß geltendem spanischem und EU-Recht.",
+        "s5Title": "5. Weitergabe von Daten",
+        "s5Text": "Ihre personenbezogenen Daten werden nicht verkauft, vermietet oder an Dritte weitergegeben, außer wenn dies gesetzlich vorgeschrieben oder zur Erbringung der angeforderten Dienstleistung erforderlich ist (z. B. Partnerbanken, wenn dies ausdrücklich vereinbart wurde).",
+        "s6Title": "6. Ihre Rechte",
+        "s6Text": "Gemäß der DSGVO und dem spanischen Datenschutzgesetz (LOPDGDD) haben Sie das Recht auf Zugang zu Ihren Daten, deren Berichtigung, Löschung, Widerspruch gegen die Verarbeitung und Datenübertragbarkeit. Um diese Rechte auszuüben, kontaktieren Sie uns unter",
+        "s7Title": "7. Cookies",
+        "s7Text": "Diese Website verwendet derzeit keine Tracking- oder Werbe-Cookies. Es können grundlegende Sitzungscookies verwendet werden, um die ordnungsgemäße Funktion der Website zu gewährleisten.",
+        "s8Title": "8. Kontakt",
+        "s8Text": "Bei Fragen zu dieser Datenschutzrichtlinie kontaktieren Sie uns bitte unter",
+        "s8Text2": "oder schreiben Sie uns an Paseo de la Infanta Isabel 27, 28014 Madrid, Spanien."
+    },
+    "notFound": {
+        "title": "Seite nicht gefunden",
+        "text": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+        "btn": "Zurück zur Startseite"
     }
 }
