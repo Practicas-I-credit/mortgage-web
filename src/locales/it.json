@@ -109,5 +109,189 @@
         "rights": "© 2026 MortgageInSpain",
         "privacy": "Informativa sulla privacy",
         "info": "Autorizzato dalla Banca di Spagna · D727 · Paseo de la Infanta Isabel 27, Madrid"
+    },
+    "services": {
+        "tag": "I nostri servizi",
+        "heroTitle": "Soluzioni per mutui per ogni situazione",
+        "heroSubtitle": "Dalla tua prima casa in Spagna al rifinanziamento di un mutuo esistente — abbiamo una soluzione su misura per le tue esigenze.",
+        "credit": "Madrid, Spagna",
+        "gridTag": "Cosa offriamo",
+        "gridTitle": "Soluzioni per mutui per ogni esigenza",
+        "gridSubtitle": "Qualunque sia la tua situazione, abbiamo una soluzione su misura supportata da oltre 45 banche partner.",
+        "loans": {
+            "title": "Mutui",
+            "text": "Ottieni le migliori condizioni per la tua residenza principale, casa vacanze o proprietà di investimento in Spagna. Negoziamo con oltre 45 banche per massimizzare il tuo risparmio."
+        },
+        "switching": {
+            "title": "Cambio mutuo e surroga",
+            "text": "Hai già un mutuo in Spagna? Ti aiutiamo a passare a condizioni migliori, riducendo la tua rata mensile e il carico finanziario complessivo."
+        },
+        "personal": {
+            "title": "Prestiti personali",
+            "text": "Soluzioni di finanziamento rapide, professionali e su misura per le tue esigenze specifiche — ristrutturazione, arredamento o altre spese."
+        },
+        "consolidation": {
+            "title": "Consolidamento debiti",
+            "text": "Unisci più debiti in un'unica rata gestibile con condizioni migliori — troviamo la soluzione più adatta alla tua situazione."
+        },
+        "whyTag": "Perché scegliere noi",
+        "whyTitle": "Lavoriamo a tuo favore",
+        "why1": {
+            "title": "Servizio premium e personalizzato",
+            "text": "Consulenti specializzati con ampia esperienza nel mercato dei mutui spagnolo."
+        },
+        "why2": {
+            "title": "Risposta rapida, successo garantito",
+            "text": "Comunicazione e risposte rapide — senza attese di settimane."
+        },
+        "why3": {
+            "title": "Gestiamo tutta la documentazione",
+            "text": "Dalla valutazione iniziale gratuita fino alla firma finale — ogni passo gestito per te."
+        },
+        "why4": {
+            "title": "Accesso a oltre 45 banche",
+            "text": "Abbiamo accordi con la più grande rete bancaria della Spagna per garantirti il miglior mutuo."
+        }
+    },
+    "faq": {
+        "tag": "Domande frequenti",
+        "title": "Domande frequenti",
+        "q1": {
+            "q": "Posso ottenere un mutuo in Spagna se vivo negli Stati Uniti?",
+            "a": "Sì. Lavoriamo con residenti negli USA che vogliono acquistare una proprietà in Spagna senza viverci. Gestiamo tutto il processo a distanza — devi solo viaggiare in Spagna per la firma finale dal notaio."
+        },
+        "q2": {
+            "q": "Vivo già in Spagna come expat — potete aiutarmi anche voi?",
+            "a": "Assolutamente sì. Sia che tu sia residente negli USA all'estero o già residente in Spagna, offriamo lo stesso servizio completo: trovare il miglior mutuo, gestire tutta la documentazione e accompagnarti in ogni fase."
+        },
+        "q3": {
+            "q": "Quali sono i requisiti di base per ottenere un mutuo in Spagna?",
+            "a": "Devi essere maggiorenne, avere un documento d'identità valido, dimostrare un reddito o un'occupazione stabile, non destinare più del 35-40% del tuo reddito al pagamento di debiti, e non avere insoluti o segnalazioni di morosità."
+        },
+        "q4": {
+            "q": "Quanto posso ottenere come non residente?",
+            "a": "Le banche spagnole generalmente finanziano fino al 70-80% del valore dell'immobile per i non residenti. Dovrai coprire il restante 20-30% come anticipo, più circa il 10% extra per tasse e spese di chiusura."
+        },
+        "q5": {
+            "q": "Quanto dura il processo?",
+            "a": "Possiamo darti una valutazione di fattibilità entro 15-20 minuti dalla tua prima chiamata. Da lì, il processo completo richiede generalmente da 4 a 8 settimane in base alla banca e alla documentazione."
+        },
+        "q6": {
+            "q": "Devo viaggiare in Spagna per firmare?",
+            "a": "Sì. La firma finale dal notaio richiede la tua presenza fisica in Spagna. Tuttavia, tutti i passaggi precedenti — documentazione, approvazione, negoziazione — sono gestiti a distanza, quindi dovrai fare solo un viaggio."
+        },
+        "q7": {
+            "q": "La consulenza iniziale è davvero gratuita?",
+            "a": "Sì, completamente gratuita e senza impegno. Valutiamo la tua situazione, ti diciamo cosa è possibile, e procediamo solo se decidi di andare avanti."
+        }
+    },
+    "about": {
+        "tag": "Chi siamo",
+        "heroTitle": "Conosciamo la strada verso la casa dei tuoi sogni",
+        "heroSubtitle": "Consulenti specializzati in mutui che aiutano gli americani a orientarsi nel mercato immobiliare spagnolo — ovunque tu viva.",
+        "credit": "Barcellona, Spagna",
+        "introTag": "Chi siamo",
+        "introTitle": "Sempre su misura per le tue esigenze",
+        "introText1": "Non importa quanto complessa sembri la tua situazione, non esitare a presentarcela — per noi il cliente è sempre la priorità assoluta. Garantiamo la tua completa tranquillità durante tutto il processo.",
+        "introText2": "In qualità di consulenti specializzati in mutui, aiutiamo i nostri clienti a ottenere le migliori condizioni finanziarie, generando un risparmio significativo nel corso del prestito.",
+        "statBanks": "Banche partner a livello nazionale",
+        "statYears": "Anni di esperienza",
+        "statApproval": "Tasso di approvazione",
+        "valuesTag": "Cosa ci distingue",
+        "valuesTitle": "Come lavoriamo per te",
+        "value1": {
+            "title": "Copertura nazionale",
+            "text": "Operiamo in tutta la Spagna — ovunque si trovi la proprietà dei tuoi sogni."
+        },
+        "value2": {
+            "title": "Analisi dettagliata delle esigenze",
+            "text": "Studiamo la tua situazione in profondità prima di consigliare qualsiasi soluzione."
+        },
+        "value3": {
+            "title": "Selezione bancaria su misura",
+            "text": "Cerchiamo tra tutte le banche partner l'offerta che si adatta davvero a te."
+        },
+        "value4": {
+            "title": "Assistenza continua",
+            "text": "Ti teniamo informato e ti affianchiamo durante tutto il processo."
+        }
+    },
+    "contact": {
+        "tag": "Contattaci",
+        "heroTitle1": "Parliamo del tuo",
+        "heroAccent": "mutuo in Spagna",
+        "heroSubtitle": "Raccontaci la tua situazione e ti risponderemo entro 24 ore.",
+        "credit": "Málaga, Spagna",
+        "bandReply": "Risposta entro 24h",
+        "bandFree": "Consulenza gratuita",
+        "otherWays": "Altri modi per contattarci",
+        "whatsapp": "WhatsApp — risposta immediata",
+        "hoursTitle": "Orari di apertura",
+        "hours1": "Lunedì a giovedì: 9:00 – 18:00",
+        "hours2": "Venerdì: 9:00 – 15:00",
+        "hours3": "Sabato e domenica: chiuso",
+        "hoursTz": "(orario di Madrid — CET/CEST)",
+        "addressTitle": "Vienici a trovare",
+        "address1": "Paseo de la Infanta Isabel, 27",
+        "address2": "1° piano, esterno sinistra",
+        "address3": "28014 — Madrid, Spagna",
+        "formName": "Nome completo",
+        "formNamePlaceholder": "Il tuo nome",
+        "formEmail": "Email",
+        "formEmailPlaceholder": "tu@email.com",
+        "formPhone": "Telefono / WhatsApp",
+        "formOptional": "(opzionale)",
+        "formPhonePlaceholder": "+1 555 000 0000",
+        "formService": "Come possiamo aiutarti?",
+        "formServiceSelect": "Seleziona un servizio",
+        "formServiceMortgage": "Mutuo",
+        "formServiceSwitching": "Cambio mutuo / surroga",
+        "formServicePersonal": "Prestito personale",
+        "formServiceConsolidation": "Consolidamento debiti",
+        "formMessage": "Raccontaci la tua situazione",
+        "formMessagePlaceholder": "Sei residente negli USA o vivi già in Spagna? Qual è il tuo budget? Hai una tempistica precisa?",
+        "formTerms1": "Ho letto e accetto",
+        "formTerms2": "l'Informativa sulla privacy",
+        "formTerms3": "",
+        "formSubmit": "Invia richiesta gratuita",
+        "formSending": "Invio in corso...",
+        "successTitle": "Messaggio ricevuto!",
+        "successText": "Ti risponderemo entro 24 ore. Grazie per averci contattato!",
+        "errorGeneral": "Si è verificato un errore durante l'invio del messaggio. Riprova o contattaci direttamente.",
+        "errorName": "Il nome è obbligatorio",
+        "errorNameMin": "Il nome deve contenere almeno 3 caratteri",
+        "errorEmailRequired": "L'email è obbligatoria",
+        "errorEmailInvalid": "Inserisci un'email valida",
+        "errorPhone": "Inserisci un numero di telefono valido",
+        "errorService": "Seleziona un servizio",
+        "errorMessageRequired": "Raccontaci la tua situazione",
+        "errorMessageMin": "Aggiungi qualche dettaglio in più (minimo 20 caratteri)",
+        "errorTerms": "Devi accettare l'Informativa sulla privacy per continuare"
+    },
+    "privacy": {
+        "title": "Informativa sulla privacy",
+        "lastUpdated": "Ultimo aggiornamento: giugno 2026",
+        "s1Title": "1. Titolare del trattamento",
+        "s1Text": "Il titolare del trattamento dei tuoi dati personali è i-credit, con sede in Paseo de la Infanta Isabel 27, 1° piano, 28014 Madrid, Spagna. Contatto:",
+        "s2Title": "2. Dati che raccogliamo",
+        "s2Text": "Attraverso il nostro modulo di contatto, raccogliamo i seguenti dati personali: nome completo, indirizzo email, numero di telefono (opzionale) e il messaggio che ci invii. Non raccogliamo alcun dato personale sensibile.",
+        "s3Title": "3. Finalità e base giuridica",
+        "s3Text": "I tuoi dati vengono trattati esclusivamente per rispondere alla tua richiesta e fornire il servizio di consulenza per mutui richiesto. La base giuridica del trattamento è il tuo consenso esplicito, fornito al momento dell'invio del modulo di contatto e dell'accettazione di questa Informativa.",
+        "s4Title": "4. Conservazione dei dati",
+        "s4Text": "I tuoi dati personali saranno conservati per il tempo necessario a risolvere la tua richiesta, e successivamente per i periodi legalmente richiesti dalla normativa spagnola e dell'UE applicabile.",
+        "s5Title": "5. Condivisione dei dati",
+        "s5Text": "I tuoi dati personali non saranno venduti, affittati o condivisi con terzi, salvo quando richiesto dalla legge o necessario per fornire il servizio richiesto (ad esempio, banche partner, quando espressamente concordato).",
+        "s6Title": "6. I tuoi diritti",
+        "s6Text": "In conformità al GDPR e alla legge spagnola sulla protezione dei dati (LOPDGDD), hai il diritto di accedere ai tuoi dati, rettificarli, richiederne la cancellazione, opporti al trattamento e richiederne la portabilità. Per esercitare questi diritti, contattaci a",
+        "s7Title": "7. Cookie",
+        "s7Text": "Questo sito non utilizza attualmente cookie di tracciamento o pubblicitari. Possono essere utilizzati cookie di sessione di base per garantire il corretto funzionamento del sito.",
+        "s8Title": "8. Contatto",
+        "s8Text": "Per qualsiasi domanda riguardante questa Informativa, contattaci a",
+        "s8Text2": "oppure scrivici a Paseo de la Infanta Isabel 27, 28014 Madrid, Spagna."
+    },
+    "notFound": {
+        "title": "Pagina non trovata",
+        "text": "La pagina che stai cercando non esiste o è stata spostata.",
+        "btn": "Torna alla home"
     }
 }
