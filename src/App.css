@@ -140,7 +140,7 @@ header {
     font-size: 0.95rem;
   }
 
-   #spain-badge span {
+  #spain-badge span {
     display: none;
   }
 }
@@ -1041,6 +1041,17 @@ nav {
     padding-top: 1.5rem;
     flex-direction: row;
     justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .intro-stat {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .intro-stat-label {
+    font-size: 0.75rem;
+    line-height: 1.3;
   }
 }
 
