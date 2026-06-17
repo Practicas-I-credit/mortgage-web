@@ -38,6 +38,7 @@ header {
 #spain-badge span {
   font-size: 0.78rem;
   color: rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
 }
 
 #spain-badge svg {
@@ -231,6 +232,10 @@ nav {
 
   #nav-links.open {
     display: flex;
+  }
+
+  #spain-badge span {
+    display: none;
   }
 }
 
