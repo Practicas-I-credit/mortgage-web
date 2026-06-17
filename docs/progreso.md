@@ -105,13 +105,36 @@
 
 ---
 
+## 17/06/2026
+
+### Actividades realizadas
+
+- Refactorización completa de CSS de mortgage-web: unificación de clases repetidas en index.css (icon-circle, card-simple, card-simple-title/text, section-title, page-hero-title/text, trust-band).
+- Corrección de legibilidad de .section-tag-light sobre fondos claros (doble text-shadow).
+- Instalación y configuración de i18next-browser-languagedetector para persistir el idioma seleccionado entre recargas de página.
+- Traducción completa de mortgage-web a francés.
+- Traducción completa de mortgage-web a alemán.
+- Traducción completa de mortgage-web a italiano.
+- Traducción completa de mortgage-web a portugués.
+- Añadidas banderas de Francia, Alemania, Italia y Portugal al componente Flags y al LanguageSwitcher.
+- Ajuste del checkbox de términos en Contact para soportar estructuras gramaticales distintas según idioma (formTerms1/2/3).
+- Añadido campo idioma_formulario al envío de Formspree para dar contexto a i-credit sobre el idioma usado por el cliente.
+- Confirmado funcionamiento del formulario de contacto en producción local — los mensajes llegan correctamente a info@i-credit.es.
+
+### Resultado
+
+- mortgage-web está completamente traducida a los 6 idiomas solicitados por Antonio: inglés, español, francés, alemán, italiano y portugués.
+- Selector de idioma funcional con persistencia mediante localStorage.
+- CSS de mortgage-web significativamente más limpio tras la refactorización.
+- Formulario de contacto verificado y funcionando correctamente.
+
+---
+
 ## Próximos pasos
 
-- Traducir mortgage-web a francés, alemán, italiano y portugués (traducción + revisión con traductor).
-- Probar envío real del formulario de contacto a info@i-credit.es.
 - Añadir sitemap y robots.txt cuando se defina el dominio.
 - Deploy en Netlify de i-credit cuando Antonio tenga los dominios.
 - Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us, y dominios adicionales para otros idiomas).
 - Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
-- Refactorizar CSS — unificar clases repetidas en clases compartidas.
-- Revisión de contenido completo por parte de Antonio.
+- Revisar si el selector de idiomas debería mostrar los nombres en el idioma activo o mantenerse en nombres nativos.
+- Revisión de contenido completo por parte de Antonio (incluyendo traducciones).
