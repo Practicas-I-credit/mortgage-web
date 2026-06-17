@@ -16,11 +16,16 @@ Web de asesoría hipotecaria especializada en compradores estadounidenses en Esp
 
 ## Estructura
 
-src/
-pages/        # Home, Services, About, Contact, Privacy, NotFound
-components/   # Header, NavBar, Footer
-docs/           # registro de progreso y documentación
-public/images/  # imágenes y logo
+```
+├── docs/           # Registro de progreso 
+│   └── notas/      # documentación técnica
+├── public/        
+│   └── images/     # imágenes y logo
+├── src/
+│   ├── components/ # Header, NavBar, Footer, Calculator, FAQ, Flags, LanguageSwitcher, ScrollToTop
+│   ├── locales/    # Archivos de traducción i18n (es, en, de, fr, it, pt)
+│   ├── pages/      # Home, Services, About, Contact, Privacy, NotFound
+```
 
 ## Páginas
 
