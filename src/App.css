@@ -386,7 +386,7 @@ nav {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.8);
   margin-bottom: 1rem;
 }
 
@@ -405,7 +405,7 @@ nav {
 .glass-label {
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.5);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.8);
 }
 
 .glass-val {
@@ -444,7 +444,7 @@ nav {
   display: block;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 4px 16px rgba(0, 0, 0, 0.8);
   margin-bottom: 6px;
 }
 
