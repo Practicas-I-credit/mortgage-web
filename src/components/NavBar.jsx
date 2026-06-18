@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { FlagUS, FlagUK, FlagCA } from './Flags'
 
@@ -8,6 +8,8 @@ export default function NavBar() {
   const { t } = useTranslation()
 
   const closeMenu = () => setOpen(false)
+
+  const linkClass = ({ isActive }) => isActive ? 'nav-active' : ''
 
   return (
     <nav>
@@ -23,10 +25,10 @@ export default function NavBar() {
       </button>
 
       <div id="nav-links" className={open ? 'open' : ''}>
-        <Link to="/" onClick={closeMenu}>{t('nav.home')}</Link>
-        <Link to="/services" onClick={closeMenu}>{t('nav.services')}</Link>
-        <Link to="/about" onClick={closeMenu}>{t('nav.about')}</Link>
-        <Link to="/contact" id="nav-cta" onClick={closeMenu}>{t('nav.cta')}</Link>
+        <NavLink to="/" end onClick={closeMenu} className={linkClass}>{t('nav.home')}</NavLink>
+        <NavLink to="/services" onClick={closeMenu} className={linkClass}>{t('nav.services')}</NavLink>
+        <NavLink to="/about" onClick={closeMenu} className={linkClass}>{t('nav.about')}</NavLink>
+        <NavLink to="/contact" id="nav-cta" onClick={closeMenu}>{t('nav.cta')}</NavLink>
       </div>
     </nav>
   )
