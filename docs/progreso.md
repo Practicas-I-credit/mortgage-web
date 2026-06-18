@@ -137,11 +137,34 @@
 
 ---
 
+## 18/06/2026
+
+### Actividades realizadas
+
+- Mejora de Performance (Lighthouse): optimización de peso de imágenes.
+- Resaltado del enlace activo en NavBar usando NavLink.
+- Añadida meta description al index.html para mejorar SEO.
+- Añadido robots.txt apuntando a sitemap.xml.
+- Instalación de vite-plugin-sitemap y configuración de dynamicRoutes (mortgage-web).
+- Deploy de mortgage-web en Netlify de i-credit — URL temporal: mortgage-in-spain.netlify.app.
+- Añadido archivo public/_redirects para que React Router funcione correctamente en Netlify.
+- Mejora de legibilidad: text-shadow en badge "Licensed by Bank of Spain" y en textos de la calculadora del hero.
+- Añadido enlace verificado a reseñas de Google de i-credit (4,8★, 335 reseñas) en sección de testimonios.
+- Corrección de la calculadora hipotecaria: eliminado bug del cero inicial pegado al escribir, mejorada compatibilidad con teclado numérico en móvil.
+
+### Resultado
+
+- mortgage-web desplegada en producción (Netlify, cuenta i-credit) con rutas funcionando correctamente.
+- Puntajes de Lighthouse mejorados significativamente.
+- Calculadora hipotecaria corregida y verificada en móvil.
+
+---
+
 ## Próximos pasos
 
-- Deploy en Netlify (URL temporal mientras se define el dominio definitivo con Antonio).
-- Añadir sitemap y robots.txt cuando se defina el dominio.
-- Definir dominio definitivo con Antonio (hipotecainspain.es/.com, mortgageinspain.us, y dominios adicionales para otros idiomas).
+- Esperar respuesta de Nominalia sobre los dominios solicitados.
+- Configurar DNS de los dominios una vez adquiridos, apuntando a Netlify.
+- Actualizar robots.txt, sitemap.xml y meta tags con el dominio definitivo una vez conectado.
 - Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
 - Revisar si el selector de idiomas debería mostrar los nombres en el idioma activo o mantenerse en nombres nativos.
 - Revisión de contenido completo por parte de Antonio (incluyendo traducciones).

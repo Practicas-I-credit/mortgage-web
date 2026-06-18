@@ -14,6 +14,9 @@ Se añadió el archivo public/_redirects con /* /index.html 200 porque:
 ## Deploy — Netlify
 - Se eligió Netlify por los mismos motivos que hipotecavenezolanos: gratuito, compatible con React + Vite, deploy automático con cada push, HTTPS incluido.
 
+## SEO básico — robots.txt, sitemap y meta description
+Se añadió un archivo robots.txt, un sitemap.xml generado automáticamente y una meta description en el HTML para mejorar la indexación del sitio en buscadores. El sitemap usa la URL temporal de Netlify y se actualizará cuando se conecte el dominio definitivo.
+
 ## Internacionalización — react-i18next
 Se eligió react-i18next en lugar de duplicar páginas por idioma porque:
 - Antonio solicitó 6 idiomas (inglés, español, francés, alemán, italiano, portugués)

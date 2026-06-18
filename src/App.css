@@ -202,7 +202,7 @@ nav {
   background: var(--gold);
   color: #ffffff !important;
   padding: 0.5rem 1.1rem;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 600;
   font-size: 0.88rem;
 }
@@ -308,7 +308,7 @@ nav {
 
 #hero-content h1 {
   font-size: clamp(2rem, 5vw, 3.2rem);
-  font-weight: 800;
+  font-weight: 600;
   color: #ffffff;
   line-height: 1.2;
   letter-spacing: -0.03em;
@@ -334,26 +334,27 @@ nav {
 
 #btn-primary {
   background: var(--gold);
-  color: #ffffff;
-  padding: 0.85rem 1.8rem;
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 1rem;
+  color: var(--dark);
+  padding: 0.8rem 1.7rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
   transition: background 0.2s;
 }
 
 #btn-primary:hover {
   background: #b07820;
+  color: #ffffff;
 }
 
 #btn-secondary {
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.35);
-  padding: 0.85rem 1.8rem;
-  border-radius: 10px;
+  padding: 0.8rem 1.7rem;
+  border-radius: 6px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.95rem;
   transition: background 0.2s;
 }
 
@@ -808,7 +809,7 @@ nav {
 #cta-final h2 {
   color: #ffffff;
   font-size: clamp(1.5rem, 3.5vw, 2.2rem);
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 0.8rem;
 }
 
@@ -830,10 +831,10 @@ nav {
 #btn-whatsapp {
   background: #25D366;
   color: #ffffff;
-  padding: 0.85rem 1.8rem;
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 1rem;
+  padding: 0.8rem 1.7rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
   transition: background 0.2s;
   display: flex;
   align-items: center;
@@ -1163,7 +1164,7 @@ nav {
   align-items: center;
   gap: 8px;
   padding: 0.75rem 1rem;
-  border-radius: 10px;
+  border-radius: 6px;
   font-size: 0.88rem;
   font-weight: 600;
   text-decoration: none;
@@ -1279,12 +1280,12 @@ nav {
 
 #form-submit {
   background: var(--gold);
-  color: #ffffff;
+  color: var(--dark);
   border: none;
-  border-radius: 10px;
-  padding: 0.85rem;
-  font-size: 1rem;
-  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s;
   font-family: inherit;
@@ -1293,6 +1294,7 @@ nav {
 
 #form-submit:hover {
   background: #b07820;
+  color: #ffffff;
 }
 
 #form-submit:disabled {
@@ -1455,17 +1457,18 @@ nav {
 
 #not-found-btn {
   background: var(--gold);
-  color: #ffffff;
-  padding: 0.85rem 1.8rem;
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 1rem;
+  color: var(--dark);
+  padding: 0.8rem 1.7rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
   margin-top: 0.5rem;
   transition: background 0.2s;
 }
 
 #not-found-btn:hover {
   background: #b07820;
+  color: #ffffff;
 }
 
 /*-----------------------------------*/
