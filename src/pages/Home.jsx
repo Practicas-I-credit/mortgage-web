@@ -148,6 +148,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <a href="https://g.co/kgs/woMS9Dy"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="google-reviews-link"
+        >
+          {t('testimonials.googleLink')} →
+        </a>
       </section>
 
       {/* CTA FINAL */}
