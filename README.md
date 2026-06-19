@@ -39,7 +39,7 @@ Web de asesoría hipotecaria especializada en compradores estadounidenses en Esp
 
 ## Estado actual
 
-- 🚧 En desarrollo
+- ✅ Desplegado en producción — [mortgage-in-spain.netlify.app](https://mortgage-in-spain.netlify.app)
 - ✅ Estructura base completa
 - ✅ Hero con glassmorphism
 - ✅ Trust Band, Stats, Pain Points, How it works, Testimonials, CTA
@@ -49,6 +49,9 @@ Web de asesoría hipotecaria especializada en compradores estadounidenses en Esp
 - ✅ Botón flotante de WhatsApp
 - ✅ CSS refactorizado y optimizado
 - ✅ UX móvil corregida (menú, scroll, header responsive)
+- ✅ SEO básico (meta description, robots.txt, sitemap.xml)
+- ✅ Accesibilidad WCAG — Lighthouse 98+/95/100/100
+- ✅ Enlace a reseñas de Google de i-credit
 
 
 ## Progreso

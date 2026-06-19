@@ -160,11 +160,31 @@
 
 ---
 
+## 19/06/2026
+
+### Actividades realizadas
+
+- Rediseño visual de botones en mortgage-web: border-radius reducido a 6px, font-weight a 600, color de texto navy en botones dorados.
+- Ajuste de tipografía: font-weight de títulos hero y CTA bajado a 600.
+- Ampliación de banderas en NavBar: añadidas FR, DE, IT, PT junto a US, UK, CA — todos los idiomas representados.
+- Corrección de flex-wrap en #nav-flags para móvil — 7 banderas se distribuyen en 2 filas.
+- Análisis de accesibilidad con Lighthouse en todas las páginas — puntuaciones altas en todas.
+- Corrección de accesibilidad en Contact: vinculado label con select mediante htmlFor/id.
+- Enlace a reseñas de Google de i-credit.
+- Generación de sitemap y robots.txt en mortgage-web; meta description añadida al index.html.
+
+### Resultado
+
+- Puntuaciones Lighthouse mortgage-web: 98-99/95/100/100 en todas las páginas.
+- Ambas webs con accesibilidad WCAG correcta.
+
+---
+
 ## Próximos pasos
 
-- Esperar respuesta de Nominalia sobre los dominios solicitados.
+- Esperar respuesta de Nominalia sobre los dominios solicitados (seguimiento previsto para el lunes 22/06).
 - Configurar DNS de los dominios una vez adquiridos, apuntando a Netlify.
-- Actualizar robots.txt, sitemap.xml y meta tags con el dominio definitivo una vez conectado.
+- Actualizar robots.txt, sitemap.xml, meta tags y documento de entrega con dominio definitivo.
 - Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
-- Revisar si el selector de idiomas debería mostrar los nombres en el idioma activo o mantenerse en nombres nativos.
 - Revisión de contenido completo por parte de Antonio (incluyendo traducciones).
+
