@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { FlagUS, FlagUK, FlagCA } from './Flags'
+import { FlagUS, FlagUK, FlagCA, FlagFR, FlagDE, FlagIT, FlagPT } from './Flags'
 
 export default function NavBar() {
   const [open, setOpen] = useState(false)
@@ -18,6 +18,10 @@ export default function NavBar() {
         <FlagUS />
         <FlagUK />
         <FlagCA />
+        <FlagFR />
+        <FlagDE />
+        <FlagIT />
+        <FlagPT />
       </div>
 
       <button className="nav-hamburger" onClick={() => setOpen(!open)} aria-label="Menu">

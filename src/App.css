@@ -266,6 +266,12 @@ nav {
   #nav-links.open {
     display: flex;
   }
+
+  #nav-flags {
+    flex-wrap: wrap;
+    gap: 6px;
+    max-width: 120px;
+  }
 }
 
 /*-----------------------------------*/
