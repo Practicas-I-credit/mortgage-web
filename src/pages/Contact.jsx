@@ -195,8 +195,9 @@ export default function Contact() {
               </div>
 
               <div className="form-group">
-                <label>{t('contact.formService')}</label>
+                <label htmlFor="servicio">{t('contact.formService')}</label>
                 <select
+                  id="servicio"
                   name="servicio"
                   value={form.servicio}
                   onChange={handleChange}
