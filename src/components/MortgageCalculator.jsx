@@ -12,9 +12,9 @@ export default function MortgageCalculator() {
   const meses = plazo * 12
   const cuota = meses > 0 && capital > 0
     ? Math.round(
-        (capital * tasa * Math.pow(1 + tasa, meses)) /
-        (Math.pow(1 + tasa, meses) - 1)
-      )
+      (capital * tasa * Math.pow(1 + tasa, meses)) /
+      (Math.pow(1 + tasa, meses) - 1)
+    )
     : 0
 
   const fmt = (n) => '€' + n.toLocaleString('en-US')
@@ -34,30 +34,34 @@ export default function MortgageCalculator() {
       <p id="glass-title">{t('calculator.title')}</p>
 
       <div className="glass-input-row">
-        <label>{t('calculator.propertyValue')}</label>
+        <label htmlFor="calc-precio">{t('calculator.propertyValue')}</label>
         <div className="glass-input-wrap">
           <span>€</span>
           <input
+            id="calc-precio"
             type="text"
             inputMode="numeric"
             pattern="[0-9]*"
             value={precio === 0 ? '' : precio}
             onChange={handlePrecioChange}
             onFocus={(e) => e.target.select()}
+            aria-label={t('calculator.propertyValue')}
           />
         </div>
       </div>
 
       <div className="glass-input-row">
-        <label>{t('calculator.term')}</label>
+        <label htmlFor="calc-plazo">{t('calculator.term')}</label>
         <div className="glass-input-wrap">
           <input
+            id="calc-plazo"
             type="text"
             inputMode="numeric"
             pattern="[0-9]*"
             value={plazo === 0 ? '' : plazo}
             onChange={handlePlazoChange}
             onFocus={(e) => e.target.select()}
+            aria-label={t('calculator.term')}
           />
           <span>{t('calculator.years')}</span>
         </div>
