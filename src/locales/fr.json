@@ -1,4 +1,12 @@
 {
+    "pageTitle": {
+        "home": "MortgageInSpain — Votre prêt hypothécaire en Espagne, sans complications",
+        "services": "Services — MortgageInSpain",
+        "about": "À propos — MortgageInSpain",
+        "contact": "Contact — MortgageInSpain",
+        "privacy": "Politique de confidentialité — MortgageInSpain",
+        "notFound": "Page introuvable — MortgageInSpain"
+    },
     "nav": {
         "home": "Accueil",
         "services": "Services",

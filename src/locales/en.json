@@ -1,4 +1,12 @@
 {
+  "pageTitle": {
+    "home": "MortgageInSpain — Your Spanish mortgage, without the hassle",
+    "services": "Services — MortgageInSpain",
+    "about": "About us — MortgageInSpain",
+    "contact": "Contact — MortgageInSpain",
+    "privacy": "Privacy Policy — MortgageInSpain",
+    "notFound": "Page not found — MortgageInSpain"
+  },
   "nav": {
     "home": "Home",
     "services": "Services",

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
@@ -14,6 +14,10 @@ export default function Contact() {
     servicio: '',
     mensaje: ''
   })
+
+  useEffect(() => {
+    document.title = t('pageTitle.contact')
+  }, [i18n.language])
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })

@@ -1,4 +1,12 @@
 {
+    "pageTitle": {
+        "home": "MortgageInSpain — Ihre Hypothek in Spanien, ohne Komplikationen",
+        "services": "Leistungen — MortgageInSpain",
+        "about": "Über uns — MortgageInSpain",
+        "contact": "Kontakt — MortgageInSpain",
+        "privacy": "Datenschutzrichtlinie — MortgageInSpain",
+        "notFound": "Seite nicht gefunden — MortgageInSpain"
+    },
     "nav": {
         "home": "Startseite",
         "services": "Leistungen",

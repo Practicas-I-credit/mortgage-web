@@ -1,4 +1,12 @@
 {
+  "pageTitle": {
+    "home": "MortgageInSpain — Tu hipoteca en España, sin complicaciones",
+    "services": "Servicios — MortgageInSpain",
+    "about": "Sobre nosotros — MortgageInSpain",
+    "contact": "Contacto — MortgageInSpain",
+    "privacy": "Política de Privacidad — MortgageInSpain",
+    "notFound": "Página no encontrada — MortgageInSpain"
+  },
   "nav": {
     "home": "Inicio",
     "services": "Servicios",

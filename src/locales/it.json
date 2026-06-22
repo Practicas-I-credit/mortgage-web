@@ -1,4 +1,12 @@
 {
+    "pageTitle": {
+        "home": "MortgageInSpain — Il tuo mutuo in Spagna, senza complicazioni",
+        "services": "Servizi — MortgageInSpain",
+        "about": "Chi siamo — MortgageInSpain",
+        "contact": "Contatti — MortgageInSpain",
+        "privacy": "Informativa sulla privacy — MortgageInSpain",
+        "notFound": "Pagina non trovata — MortgageInSpain"
+    },
     "nav": {
         "home": "Home",
         "services": "Servizi",

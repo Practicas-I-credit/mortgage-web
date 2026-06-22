@@ -1,8 +1,14 @@
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import MortgageCalculator from '../components/MortgageCalculator'
 
 export default function Home() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  useEffect(() => {
+    document.title = t('pageTitle.home')
+  }, [i18n.language])
+
 
   return (
     <main>

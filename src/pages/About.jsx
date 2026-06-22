@@ -1,7 +1,12 @@
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function About() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  useEffect(() => {
+    document.title = t('pageTitle.about')
+  }, [i18n.language])
 
   return (
     <main>

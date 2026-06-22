@@ -1,8 +1,13 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 export default function NotFound() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  useEffect(() => {
+    document.title = t('pageTitle.notFound')
+  }, [i18n.language])
 
   return (
     <main id="not-found">
