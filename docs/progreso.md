@@ -180,11 +180,37 @@
 
 ---
 
+## 22/06/2026
+
+### Actividades realizadas
+
+- Configuración para que la web abra siempre en inglés por defecto — el idioma solo se recuerda si el usuario lo cambió manualmente.
+- Implementación de título dinámico por página e idioma en todas las páginas.
+- Smooth scroll al hacer clic en "How it works" — desplaza suavemente hasta la sección del proceso.
+- Añadidas estrellas de valoración en los testimonios.
+- Enlace al registro oficial del Banco de España en el badge de acreditación del hero.
+- Scroll automático al mensaje de confirmación tras enviar el formulario de contacto.
+- Animación suave al abrir/cerrar respuestas del FAQ.
+- Rediseño del mensaje de éxito del formulario — estilo navy+dorado coherente con el diseño general.
+- Open Graph meta tags añadidos para compartir en redes sociales.
+- Lang dinámico en el HTML según idioma activo.
+- Headers de seguridad HTTP añadidos mediante archivo _headers.
+- Revisión de la web en distintos navegadores.
+- Pendiente: confirmación de dominios de Nominalia.
+
+### Resultado
+
+- mortgage-web completamente pulida con mejoras de UX, SEO y seguridad.
+- Pendiente únicamente la configuración de dominios definitivos.
+
+---
+
 ## Próximos pasos
 
-- Esperar respuesta de Nominalia sobre los dominios solicitados (seguimiento previsto para el lunes 22/06).
-- Configurar DNS de los dominios una vez adquiridos, apuntando a Netlify.
-- Actualizar robots.txt, sitemap.xml, meta tags y documento de entrega con dominio definitivo.
-- Detectar idioma automáticamente según dominio en producción (.es → español, .us → inglés, .com → selector).
-- Revisión de contenido completo por parte de Antonio (incluyendo traducciones).
+- Confirmar dominios con Nominalia y conectarlos en Netlify.
+- Actualizar robots.txt, sitemap.xml, og:url y vite.config.js con dominio definitivo (mortgageinspain.com).
+- Implementar detección automática de idioma por dominio.
+- Hacer push final con todos los cambios acumulados.
+- Actualizar documento de entrega con URLs definitivas.
+- Entregar documentos de entrega a Antonio el 24/06.
 
