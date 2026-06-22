@@ -82,6 +82,7 @@ export default function Contact() {
     Object.entries(form).forEach(([key, value]) => data.append(key, value))
     data.append('idioma_formulario', i18n.language)
 
+    
     const response = await fetch('https://formspree.io/f/mdavwyqd', {
       method: 'POST',
       body: data,

@@ -1011,6 +1011,16 @@ nav {
   padding-right: 1.5rem;
 }
 
+.faq-answer-wrap {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer-open {
+  max-height: 300px;
+}
+
 /*-----------------------------------*/
 /*-----------------PAG ABOUT--------------*/
 
@@ -1324,27 +1334,33 @@ nav {
 
 #form-success {
   text-align: center;
-  padding: 3rem 1rem;
-  background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: 16px;
+  padding: 3rem 1.5rem;
+  background: var(--dark);
+  border: 1px solid rgba(201, 146, 42, 0.3);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 #form-success span {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   display: block;
-  margin-bottom: 1rem;
 }
 
 #form-success h3 {
-  font-size: 1.2rem;
-  color: var(--text-h);
-  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gold-l);
+  margin-bottom: 0;
 }
 
 #form-success p {
-  font-size: 0.9rem;
-  color: var(--text);
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 280px;
+  line-height: 1.6;
 }
 
 .error-msg {

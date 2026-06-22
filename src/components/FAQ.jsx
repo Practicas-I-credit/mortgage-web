@@ -30,9 +30,9 @@ export default function FAQ() {
               <span>{item.q}</span>
               <span className="faq-icon">{open === i ? '−' : '+'}</span>
             </div>
-            {open === i && (
+            <div className={`faq-answer-wrap ${open === i ? 'faq-answer-open' : ''}`}>
               <p className="faq-answer">{item.a}</p>
-            )}
+            </div>
           </div>
         ))}
       </div>
