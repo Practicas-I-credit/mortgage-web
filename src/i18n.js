@@ -23,7 +23,7 @@ i18n
     },
     fallbackLng: 'en',
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage'],
       caches: ['localStorage']
     },
     interpolation: {
