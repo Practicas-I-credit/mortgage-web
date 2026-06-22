@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
@@ -15,9 +15,17 @@ export default function Contact() {
     mensaje: ''
   })
 
+  const successRef = useRef(null)
+
   useEffect(() => {
     document.title = t('pageTitle.contact')
   }, [i18n.language])
+
+  useEffect(() => {
+    if (enviado && successRef.current) {
+      successRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+  }, [enviado])
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })
@@ -150,7 +158,7 @@ export default function Contact() {
         {/* FORM */}
         <div id="contact-form-wrap">
           {enviado ? (
-            <div id="form-success">
+            <div id="form-success" ref={successRef}>
               <span>✅</span>
               <h3>{t('contact.successTitle')}</h3>
               <p>{t('contact.successText')}</p>

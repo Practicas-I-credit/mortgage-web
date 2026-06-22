@@ -310,6 +310,13 @@ nav {
   font-weight: 600;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 16px rgba(0, 0, 0, 0.9);
   width: fit-content;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+#hero-badge:hover {
+  opacity: 0.85;
 }
 
 #hero-content h1 {
@@ -738,6 +745,12 @@ nav {
 .testimonial-card:first-child {
   border-left: none;
   padding-left: 0;
+}
+
+.testimonial-stars {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  letter-spacing: 2px;
 }
 
 .quote-mark {

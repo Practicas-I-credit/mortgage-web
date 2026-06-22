@@ -16,14 +16,26 @@ export default function Home() {
       {/* HERO */}
       <section id="hero">
         <div id="hero-content">
-          <div id="hero-badge">
+          <a href="https://www.bde.es/wbe/es/entidades-profesionales/operativa-gestiones/registros/registros-entidades/"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="hero-badge"
+          >
             🏦 {t('hero.badge')}
-          </div>
+          </a>
           <h1>{t('hero.title1')} <span id="hero-accent">{t('hero.titleAccent')}</span>,<br />{t('hero.title2')}</h1>
           <p>{t('hero.subtitle')}</p>
           <div id="hero-btns">
             <a href="/contact" id="btn-primary">{t('hero.btnPrimary')}</a>
-            <a href="/services" id="btn-secondary">{t('hero.btnSecondary')}</a>
+            <a href="#como-funciona"
+              id="btn-secondary"
+              onClick={(e) => {
+                e.preventDefault()
+                document.getElementById('como-funciona')?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
+              {t('hero.btnSecondary')}
+            </a>
           </div>
           <p id="hero-note">✓ {t('hero.note')} &nbsp;·&nbsp; ✓ {t('hero.note2')} &nbsp;·&nbsp; ✓ {t('hero.note3')}</p>
         </div>
@@ -130,6 +142,7 @@ export default function Home() {
         <h2 className="section-title section-title-spaced">{t('testimonials.title')}</h2>
         <div id="testimonials-grid">
           <div className="testimonial-card">
+            <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
             <div className="quote-mark">"</div>
             <p className="testimonial-text">{t('testimonials.rafael.text')}</p>
             <div className="testimonial-author">
@@ -138,6 +151,7 @@ export default function Home() {
             </div>
           </div>
           <div className="testimonial-card">
+            <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
             <div className="quote-mark">"</div>
             <p className="testimonial-text">{t('testimonials.boris.text')}</p>
             <div className="testimonial-author">
@@ -146,6 +160,7 @@ export default function Home() {
             </div>
           </div>
           <div className="testimonial-card">
+            <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
             <div className="quote-mark">"</div>
             <p className="testimonial-text">{t('testimonials.roberto.text')}</p>
             <div className="testimonial-author">
