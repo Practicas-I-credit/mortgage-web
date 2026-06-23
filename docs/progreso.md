@@ -205,12 +205,31 @@
 
 ---
 
-## Próximos pasos
+## 23/06/2026
 
-- Confirmar dominios con Nominalia y conectarlos en Netlify.
-- Actualizar robots.txt, sitemap.xml, og:url y vite.config.js con dominio definitivo (mortgageinspain.com).
-- Implementar detección automática de idioma por dominio.
+### Actividades realizadas
+
+- Decisión final de dominio principal: hipotecainspain.com.
+- Lista de dominios a adquirir: hipotecainspain.com, hipotecainspain.es, hipotecainspain.uk, hipotecainspain.fr, hipotecainspain.de, mortgageinspain.fr, mortgageinspain.de, hipotecaenespana.es, mortgagespain.es. Pendientes de ticket: .pt, .it.
+- Actualización de index.html: og:url e og:image apuntan a hipotecainspain.com.
+- Actualización de vite.config.js: hostname cambiado a hipotecainspain.com para regenerar sitemap con URL correcta.
+- Actualización de public/robots.txt: Sitemap apunta a hipotecainspain.com/sitemap.xml.
+- Implementación de detección automática de idioma por TLD en App.jsx (.es → español, .fr → francés, .de → alemán, .it → italiano, .pt → portugués, .uk y resto → inglés). Solo actúa si el usuario no ha seleccionado idioma manualmente (localStorage).
+- Actualización de documentación: progreso.md, decisiones-tecnicas.md, README.md y Entrega_Mortgage_In_Spain.docx.
+
+### Resultado
+
+- Todos los archivos preparados localmente con el dominio definitivo. Listos para push en cuanto Antonio confirme la adquisición de dominios.
+- Documentación del proyecto actualizada y lista para entrega.
+
+---
+
+## Próximos pasos (post-push)
+
 - Hacer push final con todos los cambios acumulados.
-- Actualizar documento de entrega con URLs definitivas.
-- Entregar documentos de entrega a Antonio el 24/06.
+- Conectar hipotecainspain.com como dominio principal en Netlify.
+- Añadir el resto de dominios como aliases en Netlify.
+- Configurar DNS en Nominalia para cada dominio apuntando a Netlify.
+- Ejecutar npm run build para regenerar sitemap.xml con URL definitiva.
+
 

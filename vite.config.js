@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://mortgage-in-spain.netlify.app',
+      hostname: 'https://hipotecainspain.com',
       dynamicRoutes: ['/services', '/about', '/contact', '/privacy'],
     }),
   ],

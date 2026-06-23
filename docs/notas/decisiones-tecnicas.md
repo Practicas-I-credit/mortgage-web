@@ -49,5 +49,12 @@ Se unificaron clases repetidas (icon-circle, card-simple, section-title, page-he
 ## Imágenes — WebP
 Mismo motivo que hipotecavenezolanos: menor peso, mejor rendimiento, compatibilidad total.
 
-## Dominios (pendiente de definir)
-Antonio planea adquirir varios dominios para esta web, posiblemente con TLDs distintos según idioma (.es, .us, .com, etc.). Pendiente de definir estructura final y configuración DNS.
+## Dominios — estructura multi-TLD
+
+Antonio adquirió los dominios el 23/06/2026 a través de Nominalia. Dominio principal: hipotecainspain.com. El resto actúan como aliases en Netlify, redirigiendo al principal.
+
+Dominios adquiridos: hipotecainspain.com (principal), hipotecainspain.es, hipotecainspain.uk, hipotecainspain.fr, hipotecainspain.de, mortgageinspain.fr, mortgageinspain.de, hipotecaenespana.es, mortgagespain.es. Pendientes de ticket: .pt, .it. Descartado .us (restringido a empresas registradas en EEUU).
+
+## Detección de idioma por TLD
+
+Se implementó un useEffect en App.jsx que detecta el TLD del dominio al cargar la web y cambia el idioma automáticamente si el usuario no ha guardado preferencia manual en localStorage. Así cada dominio sirve el idioma correspondiente a su mercado por defecto (.es → español, .fr → francés, .de → alemán, etc.), sin duplicar código ni despliegues — una sola web, múltiples dominios.

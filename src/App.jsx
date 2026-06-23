@@ -19,6 +19,20 @@ function App() {
   const { i18n } = useTranslation()
 
   useEffect(() => {
+    const hostname = window.location.hostname
+    const savedLang = localStorage.getItem('i18nextLng')
+    if (!savedLang) {
+      if (hostname.includes('.es')) i18n.changeLanguage('es')
+      else if (hostname.includes('.fr')) i18n.changeLanguage('fr')
+      else if (hostname.includes('.de')) i18n.changeLanguage('de')
+      else if (hostname.includes('.it')) i18n.changeLanguage('it')
+      else if (hostname.includes('.pt')) i18n.changeLanguage('pt')
+      else if (hostname.includes('.uk')) i18n.changeLanguage('en')
+      else i18n.changeLanguage('en')
+    }
+  }, [])
+
+  useEffect(() => {
     document.documentElement.lang = i18n.language
   }, [i18n.language])
 
