@@ -2,8 +2,7 @@
 
 Web de asesoría hipotecaria especializada en compradores extranjeros en España (perfil principal: estadounidenses y expats).
 
-🌐 **URL temporal:** [mortgage-in-spain.netlify.app](https://mortgage-in-spain.netlify.app)
-🌐 **Dominio definitivo:** hipotecainspain.com *(en proceso de conexión)*
+🌐 **[hipotecainspain.com](https://hipotecainspain.com)**
 
 ## Stack
 
@@ -53,8 +52,7 @@ Web de asesoría hipotecaria especializada en compradores extranjeros en España
 - ✅ SEO básico (meta description, robots.txt, sitemap.xml)
 - ✅ Accesibilidad WCAG — Lighthouse 98+/95/100/100
 - ✅ Enlace a reseñas de Google de i-credit
-- ⏳ Push final pendiente de confirmación de dominios
-- ⏳ Conexión de dominios en Netlify + DNS en Nominalia
+- ✅ DNS configurado en Nominalia apuntando a Netlify
 
 
 ## Progreso

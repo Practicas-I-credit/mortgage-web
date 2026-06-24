@@ -224,12 +224,23 @@
 
 ---
 
-## Próximos pasos (post-push)
+## 24/06/2026
 
-- Hacer push final con todos los cambios acumulados.
-- Conectar hipotecainspain.com como dominio principal en Netlify.
-- Añadir el resto de dominios como aliases en Netlify.
-- Configurar DNS en Nominalia para cada dominio apuntando a Netlify.
-- Ejecutar npm run build para regenerar sitemap.xml con URL definitiva.
+### Actividades realizadas
+
+- Confirmada la compra de 9 dominios en Nominalia: hipotecainspain.com, hipotecainspain.es, hipotecainspain.uk, hipotecainspain.fr, hipotecainspain.de, mortgageinspain.fr, mortgageinspain.de, hipotecaenespana.es, mortgagespain.es. Pendientes de ticket: .pt, .it.
+- Ejecución de npm run build para regenerar sitemap.xml con dominio definitivo hipotecainspain.com.
+- Push final al repositorio con todos los cambios acumulados.
+- Conexión de hipotecainspain.com como dominio principal en Netlify.
+- Añadidos el resto de dominios como aliases en Netlify.
+- Configuración de DNS en Nominalia para cada dominio apuntando a Netlify.
+- Actualización de documentación final y entrega a Antonio Nuñez Barnes.
+
+### Resultado
+
+- Web desplegada y accesible en hipotecainspain.com y todos sus dominios asociados.
+- Proyecto completamente entregado y documentado.
+- Prácticas finalizadas el 24/06/2026.
+
 
 
